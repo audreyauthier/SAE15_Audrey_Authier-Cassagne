@@ -1,0 +1,482 @@
+[
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Antigone",
+        "Places libres": 147,
+        "Capacite totale": 239,
+        "Coordonnees": [
+            3.88881893,
+            43.60871606
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Comedie",
+        "Places libres": 447,
+        "Capacite totale": 731,
+        "Coordonnees": [
+            3.87976196,
+            43.60856092
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Corum",
+        "Places libres": 306,
+        "Capacite totale": 490,
+        "Coordonnees": [
+            3.88225773,
+            43.61388821
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Europa",
+        "Places libres": 492,
+        "Capacite totale": 591,
+        "Coordonnees": [
+            3.89253074,
+            43.60784971
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Foch",
+        "Places libres": 89,
+        "Capacite totale": 598,
+        "Coordonnees": [
+            3.87657084,
+            43.61074912
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Gambetta",
+        "Places libres": 209,
+        "Capacite totale": 440,
+        "Coordonnees": [
+            3.87137436,
+            43.60695138
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Gare",
+        "Places libres": 454,
+        "Capacite totale": 653,
+        "Coordonnees": [
+            3.87891,
+            43.604024
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Triangle",
+        "Places libres": 358,
+        "Capacite totale": 434,
+        "Coordonnees": [
+            3.88184418,
+            43.60923384
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Pitot",
+        "Places libres": 454,
+        "Capacite totale": 587,
+        "Coordonnees": [
+            3.87019117,
+            43.61224494
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Circe",
+        "Places libres": 1141,
+        "Capacite totale": 1200,
+        "Coordonnees": [
+            3.9178495,
+            43.60495377
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Garcia Lorca",
+        "Places libres": 332,
+        "Capacite totale": 395,
+        "Coordonnees": [
+            3.8907158,
+            43.59098509
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Mosson",
+        "Places libres": 66,
+        "Capacite totale": 350,
+        "Coordonnees": [
+            3.81966554,
+            43.61623716
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Sabines",
+        "Places libres": 180,
+        "Capacite totale": 220,
+        "Coordonnees": [
+            3.8602246,
+            43.58383263
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Sablassou",
+        "Places libres": 334,
+        "Capacite totale": 372,
+        "Coordonnees": [
+            3.92229536,
+            43.63419194
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Saint Jean Le Sec",
+        "Places libres": 270,
+        "Capacite totale": 285,
+        "Coordonnees": [
+            3.8379312,
+            43.57082225
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Euromedecine",
+        "Places libres": 165,
+        "Capacite totale": 255,
+        "Coordonnees": [
+            3.82772365,
+            43.63895359
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Occitanie",
+        "Places libres": 572,
+        "Capacite totale": 615,
+        "Coordonnees": [
+            3.84859796,
+            43.63456232
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Vicarello",
+        "Places libres": 56,
+        "Capacite totale": 65,
+        "Coordonnees": [
+            3.898411,
+            43.63286
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Gaumont EST",
+        "Places libres": 103,
+        "Capacite totale": 109,
+        "Coordonnees": [
+            3.91529,
+            43.604526
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Gaumont OUEST",
+        "Places libres": 100,
+        "Capacite totale": 250,
+        "Coordonnees": [
+            3.914158,
+            43.604824
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Charles de Gaulle",
+        "Places libres": 112,
+        "Capacite totale": 260,
+        "Coordonnees": [
+            3.8977621,
+            43.6285421
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Polygone",
+        "Places libres": 1640,
+        "Capacite totale": 1911,
+        "Coordonnees": [
+            3.88515,
+            43.607697
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Arc de Triomphe",
+        "Places libres": 133,
+        "Capacite totale": 440,
+        "Coordonnees": [
+            3.8732007,
+            43.61100267
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:21",
+        "Nom parking": "Gaumont-Circe",
+        "Places libres": 423,
+        "Capacite totale": 500,
+        "Coordonnees": [
+            3.9178495,
+            43.60495377
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Antigone",
+        "Places libres": 147,
+        "Capacite totale": 239,
+        "Coordonnees": [
+            3.88881893,
+            43.60871606
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Comedie",
+        "Places libres": 447,
+        "Capacite totale": 731,
+        "Coordonnees": [
+            3.87976196,
+            43.60856092
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Corum",
+        "Places libres": 306,
+        "Capacite totale": 490,
+        "Coordonnees": [
+            3.88225773,
+            43.61388821
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Europa",
+        "Places libres": 492,
+        "Capacite totale": 591,
+        "Coordonnees": [
+            3.89253074,
+            43.60784971
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Foch",
+        "Places libres": 89,
+        "Capacite totale": 598,
+        "Coordonnees": [
+            3.87657084,
+            43.61074912
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Gambetta",
+        "Places libres": 209,
+        "Capacite totale": 440,
+        "Coordonnees": [
+            3.87137436,
+            43.60695138
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Gare",
+        "Places libres": 454,
+        "Capacite totale": 653,
+        "Coordonnees": [
+            3.87891,
+            43.604024
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Triangle",
+        "Places libres": 358,
+        "Capacite totale": 434,
+        "Coordonnees": [
+            3.88184418,
+            43.60923384
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Pitot",
+        "Places libres": 454,
+        "Capacite totale": 587,
+        "Coordonnees": [
+            3.87019117,
+            43.61224494
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Circe",
+        "Places libres": 1141,
+        "Capacite totale": 1200,
+        "Coordonnees": [
+            3.9178495,
+            43.60495377
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Garcia Lorca",
+        "Places libres": 332,
+        "Capacite totale": 395,
+        "Coordonnees": [
+            3.8907158,
+            43.59098509
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Mosson",
+        "Places libres": 66,
+        "Capacite totale": 350,
+        "Coordonnees": [
+            3.81966554,
+            43.61623716
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Sabines",
+        "Places libres": 180,
+        "Capacite totale": 220,
+        "Coordonnees": [
+            3.8602246,
+            43.58383263
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Sablassou",
+        "Places libres": 334,
+        "Capacite totale": 372,
+        "Coordonnees": [
+            3.92229536,
+            43.63419194
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Saint Jean Le Sec",
+        "Places libres": 270,
+        "Capacite totale": 285,
+        "Coordonnees": [
+            3.8379312,
+            43.57082225
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Euromedecine",
+        "Places libres": 165,
+        "Capacite totale": 255,
+        "Coordonnees": [
+            3.82772365,
+            43.63895359
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Occitanie",
+        "Places libres": 572,
+        "Capacite totale": 615,
+        "Coordonnees": [
+            3.84859796,
+            43.63456232
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Vicarello",
+        "Places libres": 56,
+        "Capacite totale": 65,
+        "Coordonnees": [
+            3.898411,
+            43.63286
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Gaumont EST",
+        "Places libres": 103,
+        "Capacite totale": 109,
+        "Coordonnees": [
+            3.91529,
+            43.604526
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Gaumont OUEST",
+        "Places libres": 100,
+        "Capacite totale": 250,
+        "Coordonnees": [
+            3.914158,
+            43.604824
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Charles de Gaulle",
+        "Places libres": 112,
+        "Capacite totale": 260,
+        "Coordonnees": [
+            3.8977621,
+            43.6285421
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Polygone",
+        "Places libres": 1640,
+        "Capacite totale": 1911,
+        "Coordonnees": [
+            3.88515,
+            43.607697
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Arc de Triomphe",
+        "Places libres": 133,
+        "Capacite totale": 440,
+        "Coordonnees": [
+            3.8732007,
+            43.61100267
+        ]
+    },
+    {
+        "Horodatage": "2025-01-12 21:28:26",
+        "Nom parking": "Gaumont-Circe",
+        "Places libres": 423,
+        "Capacite totale": 500,
+        "Coordonnees": [
+            3.9178495,
+            43.60495377
+        ]
+    }
+]

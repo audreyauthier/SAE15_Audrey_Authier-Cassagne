@@ -1,0 +1,38 @@
+{
+    "voitures_sans_proximite": [
+        "Mosson",
+        "Sablassou",
+        "Saint Jean Le Sec",
+        "Vicarello",
+        "Charles de Gaulle"
+    ],
+    "velos_sans_proximite": [
+        "Hôtel de Ville",
+        "Place Albert 1er - St Charles",
+        "Boutonnet",
+        "Les Aubes",
+        "Port Marianne",
+        "Cité Mion",
+        "Nouveau Saint-Roch",
+        "Renouvier",
+        "Richter",
+        "Charles Flahault",
+        "Voltaire",
+        "Prés d Arènes",
+        "Vert Bois",
+        "Malbosc",
+        "FacdesSciences",
+        "Fac de Lettres",
+        "Aiguelongue",
+        "Jeu de Mail des Abbés",
+        "Marie Caizergues",
+        "Celleneuve",
+        "Père Soulas",
+        "Place Viala",
+        "Hôtel du Département",
+        "Tonnelles",
+        "Providence - Ovalie",
+        "Pérols Etang de l Or",
+        "Sud De France"
+    ]
+}

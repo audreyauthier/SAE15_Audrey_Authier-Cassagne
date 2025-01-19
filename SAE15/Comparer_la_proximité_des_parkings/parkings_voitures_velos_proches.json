@@ -1,0 +1,1776 @@
+{
+    "Antigone": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Antigone",
+                "Places libres": 147,
+                "Capacite totale": 239,
+                "Coordonnees": [
+                    3.88881893,
+                    43.60871606
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Antigone",
+                "Places libres": 147,
+                "Capacite totale": 239,
+                "Coordonnees": [
+                    3.88881893,
+                    43.60871606
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Antigone centre",
+                "Velos disponibles": 8,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.890634,
+                    43.607942
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Médiathèque Emile Zola",
+                "Velos disponibles": 16,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.89314,
+                    43.608218
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Nombre d Or",
+                "Velos disponibles": 7,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.886644,
+                    43.607859
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Antigone centre",
+                "Velos disponibles": 8,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.890634,
+                    43.607942
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Médiathèque Emile Zola",
+                "Velos disponibles": 16,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.89314,
+                    43.608218
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Nombre d Or",
+                "Velos disponibles": 7,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.886644,
+                    43.607859
+                ]
+            }
+        ]
+    },
+    "Comedie": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Comedie",
+                "Places libres": 447,
+                "Capacite totale": 731,
+                "Coordonnees": [
+                    3.87976196,
+                    43.60856092
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Comedie",
+                "Places libres": 447,
+                "Capacite totale": 731,
+                "Coordonnees": [
+                    3.87976196,
+                    43.60856092
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Rue Jules Ferry - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.881346,
+                    43.605366
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Comédie",
+                "Velos disponibles": 1,
+                "Capacite totale": 20,
+                "Coordonnees": [
+                    3.878778,
+                    43.608148
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Halles Castellane",
+                "Velos disponibles": 2,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.877208,
+                    43.609935
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Observatoire",
+                "Velos disponibles": 1,
+                "Capacite totale": 9,
+                "Coordonnees": [
+                    3.87724,
+                    43.606301
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Pont de Lattes - Gare Saint-Roch",
+                "Velos disponibles": 1,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.882393,
+                    43.606036
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Deux Ponts - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.880916,
+                    43.604319
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Comedie Baudin",
+                "Velos disponibles": 4,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.880787,
+                    43.608717
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Jean de Beins",
+                "Velos disponibles": 3,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.883884,
+                    43.609857
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Rue Jules Ferry - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.881346,
+                    43.605366
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Comédie",
+                "Velos disponibles": 1,
+                "Capacite totale": 20,
+                "Coordonnees": [
+                    3.878778,
+                    43.608148
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Halles Castellane",
+                "Velos disponibles": 2,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.877208,
+                    43.609935
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Observatoire",
+                "Velos disponibles": 1,
+                "Capacite totale": 9,
+                "Coordonnees": [
+                    3.87724,
+                    43.606301
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Pont de Lattes - Gare Saint-Roch",
+                "Velos disponibles": 1,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.882393,
+                    43.606036
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Deux Ponts - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.880916,
+                    43.604319
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Comedie Baudin",
+                "Velos disponibles": 4,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.880787,
+                    43.608717
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Jean de Beins",
+                "Velos disponibles": 3,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.883884,
+                    43.609857
+                ]
+            }
+        ]
+    },
+    "Corum": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Corum",
+                "Places libres": 306,
+                "Capacite totale": 490,
+                "Coordonnees": [
+                    3.88225773,
+                    43.61388821
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Corum",
+                "Places libres": 306,
+                "Capacite totale": 490,
+                "Coordonnees": [
+                    3.88225773,
+                    43.61388821
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Corum",
+                "Velos disponibles": 3,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.8816,
+                    43.613989
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Emile Combes",
+                "Velos disponibles": 4,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.87998,
+                    43.616742
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Beaux-Arts",
+                "Velos disponibles": 9,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.884981,
+                    43.616698
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Jean de Beins",
+                "Velos disponibles": 3,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.883884,
+                    43.609857
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Corum",
+                "Velos disponibles": 3,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.8816,
+                    43.613989
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Emile Combes",
+                "Velos disponibles": 4,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.87998,
+                    43.616742
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Beaux-Arts",
+                "Velos disponibles": 9,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.884981,
+                    43.616698
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Jean de Beins",
+                "Velos disponibles": 3,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.883884,
+                    43.609857
+                ]
+            }
+        ]
+    },
+    "Europa": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Europa",
+                "Places libres": 492,
+                "Capacite totale": 591,
+                "Coordonnees": [
+                    3.89253074,
+                    43.60784971
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Europa",
+                "Places libres": 492,
+                "Capacite totale": 591,
+                "Coordonnees": [
+                    3.89253074,
+                    43.60784971
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Antigone centre",
+                "Velos disponibles": 8,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.890634,
+                    43.607942
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Médiathèque Emile Zola",
+                "Velos disponibles": 16,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.89314,
+                    43.608218
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Antigone centre",
+                "Velos disponibles": 8,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.890634,
+                    43.607942
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Médiathèque Emile Zola",
+                "Velos disponibles": 16,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.89314,
+                    43.608218
+                ]
+            }
+        ]
+    },
+    "Foch": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Foch",
+                "Places libres": 89,
+                "Capacite totale": 598,
+                "Coordonnees": [
+                    3.87657084,
+                    43.61074912
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Foch",
+                "Places libres": 89,
+                "Capacite totale": 598,
+                "Coordonnees": [
+                    3.87657084,
+                    43.61074912
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Comédie",
+                "Velos disponibles": 1,
+                "Capacite totale": 20,
+                "Coordonnees": [
+                    3.878778,
+                    43.608148
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Foch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.873345,
+                    43.610989
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Halles Castellane",
+                "Velos disponibles": 2,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.877208,
+                    43.609935
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Observatoire",
+                "Velos disponibles": 1,
+                "Capacite totale": 9,
+                "Coordonnees": [
+                    3.87724,
+                    43.606301
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Louis Blanc",
+                "Velos disponibles": 9,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.877648,
+                    43.614642
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Saint-Guilhem - Courreau",
+                "Velos disponibles": 1,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.872752,
+                    43.608996
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Comédie",
+                "Velos disponibles": 1,
+                "Capacite totale": 20,
+                "Coordonnees": [
+                    3.878778,
+                    43.608148
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Foch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.873345,
+                    43.610989
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Halles Castellane",
+                "Velos disponibles": 2,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.877208,
+                    43.609935
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Observatoire",
+                "Velos disponibles": 1,
+                "Capacite totale": 9,
+                "Coordonnees": [
+                    3.87724,
+                    43.606301
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Louis Blanc",
+                "Velos disponibles": 9,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.877648,
+                    43.614642
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Saint-Guilhem - Courreau",
+                "Velos disponibles": 1,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.872752,
+                    43.608996
+                ]
+            }
+        ]
+    },
+    "Gambetta": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Gambetta",
+                "Places libres": 209,
+                "Capacite totale": 440,
+                "Coordonnees": [
+                    3.87137436,
+                    43.60695138
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Gambetta",
+                "Places libres": 209,
+                "Capacite totale": 440,
+                "Coordonnees": [
+                    3.87137436,
+                    43.60695138
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Foch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.873345,
+                    43.610989
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Plan Cabanes",
+                "Velos disponibles": 2,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.868389,
+                    43.608491
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Gambetta",
+                "Velos disponibles": 1,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.870693,
+                    43.607106
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Saint-Denis",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.875065,
+                    43.605021
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Saint-Guilhem - Courreau",
+                "Velos disponibles": 1,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.872752,
+                    43.608996
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Foch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.873345,
+                    43.610989
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Plan Cabanes",
+                "Velos disponibles": 2,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.868389,
+                    43.608491
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Gambetta",
+                "Velos disponibles": 1,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.870693,
+                    43.607106
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Saint-Denis",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.875065,
+                    43.605021
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Saint-Guilhem - Courreau",
+                "Velos disponibles": 1,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.872752,
+                    43.608996
+                ]
+            }
+        ]
+    },
+    "Gare": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Gare",
+                "Places libres": 454,
+                "Capacite totale": 653,
+                "Coordonnees": [
+                    3.87891,
+                    43.604024
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Gare",
+                "Places libres": 454,
+                "Capacite totale": 653,
+                "Coordonnees": [
+                    3.87891,
+                    43.604024
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Rue Jules Ferry - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.881346,
+                    43.605366
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Comédie",
+                "Velos disponibles": 1,
+                "Capacite totale": 20,
+                "Coordonnees": [
+                    3.878778,
+                    43.608148
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Observatoire",
+                "Velos disponibles": 1,
+                "Capacite totale": 9,
+                "Coordonnees": [
+                    3.87724,
+                    43.606301
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Rondelet",
+                "Velos disponibles": 9,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.875796,
+                    43.603038
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Saint-Denis",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.875065,
+                    43.605021
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Parvis Jules Ferry - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.879362,
+                    43.603889
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Pont de Lattes - Gare Saint-Roch",
+                "Velos disponibles": 1,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.882393,
+                    43.606036
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Deux Ponts - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.880916,
+                    43.604319
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Rue Jules Ferry - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.881346,
+                    43.605366
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Comédie",
+                "Velos disponibles": 1,
+                "Capacite totale": 20,
+                "Coordonnees": [
+                    3.878778,
+                    43.608148
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Observatoire",
+                "Velos disponibles": 1,
+                "Capacite totale": 9,
+                "Coordonnees": [
+                    3.87724,
+                    43.606301
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Rondelet",
+                "Velos disponibles": 9,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.875796,
+                    43.603038
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Saint-Denis",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.875065,
+                    43.605021
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Parvis Jules Ferry - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.879362,
+                    43.603889
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Pont de Lattes - Gare Saint-Roch",
+                "Velos disponibles": 1,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.882393,
+                    43.606036
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Deux Ponts - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.880916,
+                    43.604319
+                ]
+            }
+        ]
+    },
+    "Triangle": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Triangle",
+                "Places libres": 358,
+                "Capacite totale": 434,
+                "Coordonnees": [
+                    3.88184418,
+                    43.60923384
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Triangle",
+                "Places libres": 358,
+                "Capacite totale": 434,
+                "Coordonnees": [
+                    3.88184418,
+                    43.60923384
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Rue Jules Ferry - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.881346,
+                    43.605366
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Comédie",
+                "Velos disponibles": 1,
+                "Capacite totale": 20,
+                "Coordonnees": [
+                    3.878778,
+                    43.608148
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Pont de Lattes - Gare Saint-Roch",
+                "Velos disponibles": 1,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.882393,
+                    43.606036
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Comedie Baudin",
+                "Velos disponibles": 4,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.880787,
+                    43.608717
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Jean de Beins",
+                "Velos disponibles": 3,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.883884,
+                    43.609857
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Rue Jules Ferry - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.881346,
+                    43.605366
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Comédie",
+                "Velos disponibles": 1,
+                "Capacite totale": 20,
+                "Coordonnees": [
+                    3.878778,
+                    43.608148
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Pont de Lattes - Gare Saint-Roch",
+                "Velos disponibles": 1,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.882393,
+                    43.606036
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Comedie Baudin",
+                "Velos disponibles": 4,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.880787,
+                    43.608717
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Jean de Beins",
+                "Velos disponibles": 3,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.883884,
+                    43.609857
+                ]
+            }
+        ]
+    },
+    "Pitot": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Pitot",
+                "Places libres": 454,
+                "Capacite totale": 587,
+                "Coordonnees": [
+                    3.87019117,
+                    43.61224494
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Pitot",
+                "Places libres": 454,
+                "Capacite totale": 587,
+                "Coordonnees": [
+                    3.87019117,
+                    43.61224494
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Foch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.873345,
+                    43.610989
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Plan Cabanes",
+                "Velos disponibles": 2,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.868389,
+                    43.608491
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Les Arceaux",
+                "Velos disponibles": 7,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.867734,
+                    43.612659
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Albert 1er - Cathédrale",
+                "Velos disponibles": 3,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.873218,
+                    43.614005
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Saint-Guilhem - Courreau",
+                "Velos disponibles": 1,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.872752,
+                    43.608996
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Foch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.873345,
+                    43.610989
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Plan Cabanes",
+                "Velos disponibles": 2,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.868389,
+                    43.608491
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Les Arceaux",
+                "Velos disponibles": 7,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.867734,
+                    43.612659
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Albert 1er - Cathédrale",
+                "Velos disponibles": 3,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.873218,
+                    43.614005
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Saint-Guilhem - Courreau",
+                "Velos disponibles": 1,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.872752,
+                    43.608996
+                ]
+            }
+        ]
+    },
+    "Circe": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Circe",
+                "Places libres": 1141,
+                "Capacite totale": 1200,
+                "Coordonnees": [
+                    3.9178495,
+                    43.60495377
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Circe",
+                "Places libres": 1141,
+                "Capacite totale": 1200,
+                "Coordonnees": [
+                    3.9178495,
+                    43.60495377
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Odysseum",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.918979,
+                    43.603727
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Odysseum",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.918979,
+                    43.603727
+                ]
+            }
+        ]
+    },
+    "Garcia Lorca": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Garcia Lorca",
+                "Places libres": 332,
+                "Capacite totale": 395,
+                "Coordonnees": [
+                    3.8907158,
+                    43.59098509
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Garcia Lorca",
+                "Places libres": 332,
+                "Capacite totale": 395,
+                "Coordonnees": [
+                    3.8907158,
+                    43.59098509
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Garcia Lorca",
+                "Velos disponibles": 5,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.890616,
+                    43.590757
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Garcia Lorca",
+                "Velos disponibles": 5,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.890616,
+                    43.590757
+                ]
+            }
+        ]
+    },
+    "Sabines": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Sabines",
+                "Places libres": 180,
+                "Capacite totale": 220,
+                "Coordonnees": [
+                    3.8602246,
+                    43.58383263
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Sabines",
+                "Places libres": 180,
+                "Capacite totale": 220,
+                "Coordonnees": [
+                    3.8602246,
+                    43.58383263
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Sabines",
+                "Velos disponibles": 5,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.860031,
+                    43.584211
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Sabines",
+                "Velos disponibles": 5,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.860031,
+                    43.584211
+                ]
+            }
+        ]
+    },
+    "Euromedecine": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Euromedecine",
+                "Places libres": 165,
+                "Capacite totale": 255,
+                "Coordonnees": [
+                    3.82772365,
+                    43.63895359
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Euromedecine",
+                "Places libres": 165,
+                "Capacite totale": 255,
+                "Coordonnees": [
+                    3.82772365,
+                    43.63895359
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Euromédecine",
+                "Velos disponibles": 5,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.828199,
+                    43.639119
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Euromédecine",
+                "Velos disponibles": 5,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.828199,
+                    43.639119
+                ]
+            }
+        ]
+    },
+    "Occitanie": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Occitanie",
+                "Places libres": 572,
+                "Capacite totale": 615,
+                "Coordonnees": [
+                    3.84859796,
+                    43.63456232
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Occitanie",
+                "Places libres": 572,
+                "Capacite totale": 615,
+                "Coordonnees": [
+                    3.84859796,
+                    43.63456232
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Occitanie",
+                "Velos disponibles": 1,
+                "Capacite totale": 32,
+                "Coordonnees": [
+                    3.849128,
+                    43.634242
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Occitanie",
+                "Velos disponibles": 1,
+                "Capacite totale": 32,
+                "Coordonnees": [
+                    3.849128,
+                    43.634242
+                ]
+            }
+        ]
+    },
+    "Gaumont EST": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Gaumont EST",
+                "Places libres": 103,
+                "Capacite totale": 109,
+                "Coordonnees": [
+                    3.91529,
+                    43.604526
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Gaumont EST",
+                "Places libres": 103,
+                "Capacite totale": 109,
+                "Coordonnees": [
+                    3.91529,
+                    43.604526
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Odysseum",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.918979,
+                    43.603727
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Jardin de la Lironde",
+                "Velos disponibles": 5,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.911576,
+                    43.60585
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Odysseum",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.918979,
+                    43.603727
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Jardin de la Lironde",
+                "Velos disponibles": 5,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.911576,
+                    43.60585
+                ]
+            }
+        ]
+    },
+    "Gaumont OUEST": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Gaumont OUEST",
+                "Places libres": 100,
+                "Capacite totale": 250,
+                "Coordonnees": [
+                    3.914158,
+                    43.604824
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Gaumont OUEST",
+                "Places libres": 100,
+                "Capacite totale": 250,
+                "Coordonnees": [
+                    3.914158,
+                    43.604824
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Jardin de la Lironde",
+                "Velos disponibles": 5,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.911576,
+                    43.60585
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Jardin de la Lironde",
+                "Velos disponibles": 5,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.911576,
+                    43.60585
+                ]
+            }
+        ]
+    },
+    "Polygone": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Polygone",
+                "Places libres": 1640,
+                "Capacite totale": 1911,
+                "Coordonnees": [
+                    3.88515,
+                    43.607697
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Polygone",
+                "Places libres": 1640,
+                "Capacite totale": 1911,
+                "Coordonnees": [
+                    3.88515,
+                    43.607697
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Rue Jules Ferry - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.881346,
+                    43.605366
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Nombre d Or",
+                "Velos disponibles": 7,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.886644,
+                    43.607859
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Pont de Lattes - Gare Saint-Roch",
+                "Velos disponibles": 1,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.882393,
+                    43.606036
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Comedie Baudin",
+                "Velos disponibles": 4,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.880787,
+                    43.608717
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Jean de Beins",
+                "Velos disponibles": 3,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.883884,
+                    43.609857
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Rue Jules Ferry - Gare Saint-Roch",
+                "Velos disponibles": 0,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.881346,
+                    43.605366
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Nombre d Or",
+                "Velos disponibles": 7,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.886644,
+                    43.607859
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Pont de Lattes - Gare Saint-Roch",
+                "Velos disponibles": 1,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.882393,
+                    43.606036
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Comedie Baudin",
+                "Velos disponibles": 4,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.880787,
+                    43.608717
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Jean de Beins",
+                "Velos disponibles": 3,
+                "Capacite totale": 16,
+                "Coordonnees": [
+                    3.883884,
+                    43.609857
+                ]
+            }
+        ]
+    },
+    "Arc de Triomphe": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Arc de Triomphe",
+                "Places libres": 133,
+                "Capacite totale": 440,
+                "Coordonnees": [
+                    3.8732007,
+                    43.61100267
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Arc de Triomphe",
+                "Places libres": 133,
+                "Capacite totale": 440,
+                "Coordonnees": [
+                    3.8732007,
+                    43.61100267
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Foch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.873345,
+                    43.610989
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Halles Castellane",
+                "Velos disponibles": 2,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.877208,
+                    43.609935
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Albert 1er - Cathédrale",
+                "Velos disponibles": 3,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.873218,
+                    43.614005
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Saint-Guilhem - Courreau",
+                "Velos disponibles": 1,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.872752,
+                    43.608996
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Foch",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.873345,
+                    43.610989
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Halles Castellane",
+                "Velos disponibles": 2,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.877208,
+                    43.609935
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Albert 1er - Cathédrale",
+                "Velos disponibles": 3,
+                "Capacite totale": 12,
+                "Coordonnees": [
+                    3.873218,
+                    43.614005
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Saint-Guilhem - Courreau",
+                "Velos disponibles": 1,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.872752,
+                    43.608996
+                ]
+            }
+        ]
+    },
+    "Gaumont-Circe": {
+        "Donnees Voiture": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking": "Gaumont-Circe",
+                "Places libres": 423,
+                "Capacite totale": 500,
+                "Coordonnees": [
+                    3.9178495,
+                    43.60495377
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking": "Gaumont-Circe",
+                "Places libres": 423,
+                "Capacite totale": 500,
+                "Coordonnees": [
+                    3.9178495,
+                    43.60495377
+                ]
+            }
+        ],
+        "Donnees Velos Proches": [
+            {
+                "Horodatage": "2025-01-12 21:28:21",
+                "Nom parking velo": "Odysseum",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.918979,
+                    43.603727
+                ]
+            },
+            {
+                "Horodatage": "2025-01-12 21:28:26",
+                "Nom parking velo": "Odysseum",
+                "Velos disponibles": 0,
+                "Capacite totale": 8,
+                "Coordonnees": [
+                    3.918979,
+                    43.603727
+                ]
+            }
+        ]
+    }
+}
