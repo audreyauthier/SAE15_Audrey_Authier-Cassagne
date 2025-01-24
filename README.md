@@ -165,7 +165,7 @@ Ce travail m’a également permis d’apprendre à résoudre des problèmes tec
 ## Structure du dépôt
 
 ### 1. Dossier `HTMLSAE15`
-Ce dossier contient tous les fichiers nécessaires pour afficher le site web interactif hébergé sur GitHub Pages. 
+Ce dossier contient tous les fichiers nécessaires pour afficher mon site web hébergé sur GitHub Pages.
 Voici un aperçu de son contenu :
 
 - **`graphique_velos.html`** : Graphique interactif pour les parkings vélos.
@@ -183,20 +183,21 @@ Ce dossier contient les scripts et données pour la collecte, le traitement et l
 
 #### 2.1. Sous-dossier `Comparer_la_proximité_des_parkings`
 - **`Comparer_proximité_parkings.py`** : Programme pour analyser la proximité géographique entre les parkings vélos et voitures.
-- **`donnees_parkings_velos.json`** et **`donnees_parkings_voitures.json`** : Données brutes des parkings vélos et voitures.
+- **`donnees_parkings_velos.json`** et **`donnees_parkings_voitures.json`** : Données brutes des parkings vélos et voitures afin de récupérer leurs coordonnées.
 - **`tableau_parkings_proches`** : Tableau des parkings considérés comme proches (≤ 500 m).
 - **`parkings_voitures_velos_proches.json`** : Liste des parkings avec proximité confirmée.
+- **`parkings_sans_proximite.json`**: Liste des parkings sans proximité.
 
 #### 2.2. Sous-dossier `Graphiques_tableaux`
-Ce dossier contient les graphiques et tableaux générés :
-- Graphiques des taux d'occupation et écarts-types (format PNG et HTML).
-- Tableaux synthétiques des données.
+Ce dossier contient les graphiques et tableaux générés par les scripts:
+- Graphiques des taux d'occupation ou d'utilisation et écarts-types (format PNG et HTML).
+- Tableaux synthétiques des données pour les parkings vélos et voitures.
 
 #### 2.3. Sous-dossier `Projet`
-- **`DM1_statistiques.py`** : Fichier Python contenant des fonctions statistiques de base utilisées dans le projet.
+- **`DM1_statistiques.py`** : Fichier Python contenant des fonctions statistiques de base utilisées dans le projet (et crées dans le cadre d'un devoir maison)
 
 #### 2.4. Sous-dossiers `velos` et `voitures`
-Ces dossiers contiennent les fichiers JSON bruts pour les données de parkings vélos et voitures sur 7 jours (du 26 décembre au 1er janvier).
+Ces dossiers contiennent les fichiers JSON bruts des données des parkings vélos et voitures sur 7 jours (du 26 décembre au 1er janvier).
 
 ### 3. Scripts principaux
 Voici une liste des scripts clés utilisés dans mon projet :
@@ -207,9 +208,6 @@ Voici une liste des scripts clés utilisés dans mon projet :
   Programme pour collecter les données brutes via l'API Open Data de Montpellier.
 - [Traitement des données](SAE15/programmes_traitement_donnees.py)  
   Script pour calculer les taux d'occupation et générer les graphiques.
-
-## Accéder aux données
-Les données brutes et résultats sont accessibles via les sous-dossiers dans `SAE15`.
 
 ---
 
