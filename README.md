@@ -170,7 +170,7 @@ Voici un aperçu de son contenu :
 
 - **`graphique_velos.html`** : Graphique interactif pour les parkings vélos.
 - **`graphique_voitures.html`** : Graphique interactif pour les parkings voitures.
-- **`heatmap.png`** : Carte thermique des corrélations entre les parkings proches.
+- **`heatmap.png`** : Carte des corrélations entre les parkings proches.
 - **`ecart_type_velos.png`** : Graphique des écarts-types pour les parkings vélos.
 - **`ecart_type_voitures.png`** : Graphique des écarts-types pour les parkings voitures.
 - **Tableaux récapitulatifs** :
