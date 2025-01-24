@@ -43,58 +43,59 @@ Afin de pouvoir analyser la proximité géographique des parkings, il m’a fall
 Après avoir récupéré les données nécessaires, j’ai procédé à leur traitement pour calculer les taux d’occupation des parkings. Cependant, en raison de la différence de nature des parkings (voitures et vélos), les calculs ont été adaptés :
 
 ## Parkings voitures
-Pour les parkings voitures, j’ai calculé le taux d’occupation en fonction du nombre de places libres. Ce taux indique dans quelle mesure un parking est occupé, en utilisant la formule classique du taux d’occupation :
 
-\[
+Pour les parkings voitures, le **taux d'occupation** est calculé comme suit :
+
+$$
 \text{Taux d'occupation du parking voitures (\%)} = \left( \frac{\text{Nombre de places occupées}}{\text{Capacité totale}} \right) \times 100
-\]
+$$
 
-Or, sur le site, j’ai récupéré le **nombre de places libres de parking**. 
+Or, sur le site, j’ai récupéré le **nombre de places libres**. Donc :
 
-Comme :
-
-\[
+$$
 \text{Nombre de places occupées} = \text{Capacité totale} - \text{Nombre de places libres}
-\]
-
-Alors :
-
-\[
-\text{Taux d'occupation du parking voitures (\%)} = \left( \frac{\text{Capacité totale} - \text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
-\]
-
-Ce qui revient à :
-
-\[
-\text{Taux d'occupation du parking voitures (\%)} = \left( 1 - \frac{\text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
-\]
-
-## Parkings vélos
-Pour les parkings vélos, j’ai calculé un **taux d’utilisation**. Plus il y a de vélos disponibles, plus le parking est plein. On peut utiliser une formule similaire à celle des parkings voitures :
-
-\[
-\text{Taux d'occupation (ou d'utilisation) vélos (\%)} = \left( \frac{\text{Nombre de vélos utilisés}}{\text{Capacité totale}} \right) \times 100
-\]
-
-Or, sur le site, j’ai récupéré le **nombre de vélos non utilisés** (disponibles à la location), soit le nombre de places libres. 
+$$
 
 Ainsi :
 
-\[
-\text{Nombre de vélos utilisés} = \text{Capacité totale} - \text{Nombre de places libres}
-\]
-
-Alors :
-
-\[
-\text{Taux d'occupation (ou d'utilisation) vélos (\%)} = \left( \frac{\text{Capacité totale} - \text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
-\]
+$$
+\text{Taux d'occupation du parking voitures (\%)} = \left( \frac{\text{Capacité totale} - \text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
+$$
 
 Ce qui revient à :
 
-\[
+$$
+\text{Taux d'occupation du parking voitures (\%)} = \left( 1 - \frac{\text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
+$$
+
+---
+
+## Parkings vélos
+
+Pour les parkings vélos, le **taux d’utilisation** est calculé de manière similaire :
+
+$$
+\text{Taux d'occupation (ou d'utilisation) vélos (\%)} = \left( \frac{\text{Nombre de vélos utilisés}}{\text{Capacité totale}} \right) \times 100
+$$
+
+Or, sur le site, j’ai récupéré le **nombre de vélos disponibles** (non utilisés), soit :
+
+$$
+\text{Nombre de vélos utilisés} = \text{Capacité totale} - \text{Nombre de places libres}
+$$
+
+Ainsi :
+
+$$
+\text{Taux d'occupation (ou d'utilisation) vélos (\%)} = \left( \frac{\text{Capacité totale} - \text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
+$$
+
+Ce qui revient à :
+
+$$
 \text{Taux d'occupation (ou d'utilisation) vélos (\%)} = \left( 1 - \frac{\text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
-\]
+$$
+
 
 Cela signifie qu’un parking avec peu de vélos disponibles est plus utilisé, et donc plus occupé.
 
