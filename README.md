@@ -80,22 +80,22 @@ $$
 \text{Taux d'occupation ou d'utilisation vélos \%} = \frac{\text{Nombre de vélos utilisés}}{\text{Capacité totale}} \times 100
 $$
 
-Or, sur le site, j’ai récupéré le **nombre de vélos disponibles** (non utilisés). Donc :
+Or, sur le site, j’ai récupéré le **nombre de vélos disponibles** (non utilisés = libres d'utilisation). Donc :
 
 $$
-\text{Nombre de vélos utilisés} = \text{Capacité totale} - \text{Nombre de places libres}
+\text{Nombre de vélos utilisés} = \text{Capacité totale} - \text{Nombre de places libres d'utilisation}
 $$
 
 Ainsi :
 
 $$
-\text{Taux d'occupation ou d'utilisation vélos \%} = \frac{\text{Capacité totale} - \text{Nombre de places libres}}{\text{Capacité totale}} \times 100
+\text{Taux d'occupation ou d'utilisation vélos \%} = \frac{\text{Capacité totale} - \text{Nombre de places libres d'utilisation}}{\text{Capacité totale}} \times 100
 $$
 
 Ce qui revient à :
 
 $$
-\text{Taux d'occupation ou d'utilisation vélos \%} = 1 - \frac{\text{Nombre de places libres}}{\text{Capacité totale}} \times 100
+\text{Taux d'occupation ou d'utilisation vélos \%} = 1 - \frac{\text{Nombre de places libres d'utilisation}}{\text{Capacité totale}} \times 100
 $$  
 
 Cela signifie qu’un parking avec peu de vélos disponibles est plus utilisé, et donc plus occupé.
