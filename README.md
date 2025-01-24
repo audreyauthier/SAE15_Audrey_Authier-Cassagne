@@ -10,7 +10,7 @@ Dans le cadre de ma formation en **BUT Réseaux et Télécommunications**, j'ai 
 
 Le maire de Montpellier m’a mandaté pour étudier l’occupation des parkings de la ville, en particulier :
 
-- Le taux d’occupation des parkings voitures et vélos.
+- Le taux d’occupation des parkings voitures et le taux d'utilisation des vélos.
 - L’analyse de la relation entre l’utilisation des parkings de voitures et de vélos, pour voir s’il existait des liens entre l’utilisation des parkings voitures et la location des vélos dans les parkings vélos situés à proximité.
 
 L’objectif principal était de déterminer si les parkings étaient bien dimensionnés et de vérifier si des corrélations existent entre l'usage des parkings voitures et vélos, en tenant compte de leur proximité géographique.
