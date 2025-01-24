@@ -1,6 +1,8 @@
 # SAE15_Audrey_Authier-Cassagne
 
-Mon projet est disponible ici: https://audreyauthier.github.io/SAE15_Audrey_Authier-Cassagne/
+**Mon projet est disponible ici**: [Site Web du projet](https://audreyauthier.github.io/SAE15_Audrey_Authier-Cassagne/)
+
+NB: Une explication de l'arborescence des fichiers présents sur ce dépôt est présente tout en bas de cette page.
 
 # Genèse de mon projet
 
@@ -80,7 +82,7 @@ $$
 \text{Taux d'occupation ou d'utilisation vélos \%} = \frac{\text{Nombre de vélos utilisés}}{\text{Capacité totale}} \times 100
 $$
 
-Or, sur le site, j’ai récupéré le **nombre de vélos disponibles** (non utilisés = libres d'utilisation). Donc :
+Or, sur le site, j’ai récupéré le **nombre de vélos disponibles** (non utilisés = places libres d'utilisation). Donc :
 
 $$
 \text{Nombre de vélos utilisés} = \text{Capacité totale} - \text{Nombre de places libres d'utilisation}
@@ -98,7 +100,7 @@ $$
 \text{Taux d'occupation ou d'utilisation vélos \%} = 1 - \frac{\text{Nombre de places libres d'utilisation}}{\text{Capacité totale}} \times 100
 $$  
 
-Cela signifie qu’un parking avec peu de vélos disponibles est plus utilisé, et donc plus occupé.
+Cela signifie qu’un parking avec peu de vélos disponibles est plus utilisé et a donc un taux d'utilisation plus important.
 
 J’ai ensuite organisé les données pour permettre une analyse journalière et statistique. J’ai ainsi généré des graphiques pour visualiser ces taux sur plusieurs jours.
 
@@ -161,4 +163,65 @@ Ce projet m’a permis de développer des compétences en :
 - **Analyse statistique et visualisation graphique**
 
 J’ai étudié l’utilisation des parkings de Montpellier, analysé la relation entre l'occupation des parkings voitures et vélos, et créé des graphes et tableaux pour présenter mes résultats. J’ai également appris à résoudre des problèmes techniques liés aux graphiques interactifs et à intégrer mes analyses dans une page HTML accessible au maire de Montpellier et aux parties prenantes.
+
+
+---
+
+## Structure du dépôt
+
+### 1. Dossier `HTMLSAE15`
+Ce dossier contient tous les fichiers nécessaires pour afficher le site web interactif hébergé sur GitHub Pages. 
+Voici un aperçu de son contenu :
+
+- **`graphique_velos.html`** : Graphique interactif pour les parkings vélos.
+- **`graphique_voitures.html`** : Graphique interactif pour les parkings voitures.
+- **`heatmap.png`** : Carte thermique des corrélations entre les parkings proches.
+- **`ecart_type_velos.png`** : Graphique des écarts-types pour les parkings vélos.
+- **`ecart_type_voitures.png`** : Graphique des écarts-types pour les parkings voitures.
+- **Tableaux récapitulatifs** :
+  - `tableau_parkings_proches`
+  - `tableau_velos`
+  - `tableau_voitures`
+
+---
+
+### 2. Dossier `SAE15`
+Ce dossier contient les scripts et données pour la collecte, le traitement et l'analyse des parkings.
+
+#### 2.1. Sous-dossier `Comparer_la_proximité_des_parkings`
+- **`Comparer_proximité_parkings.py`** : Programme pour analyser la proximité géographique entre les parkings vélos et voitures.
+- **`donnees_parkings_velos.json`** et **`donnees_parkings_voitures.json`** : Données brutes des parkings vélos et voitures.
+- **`tableau_parkings_proches`** : Tableau des parkings considérés comme proches (≤ 500 m).
+- **`parkings_voitures_velos_proches.json`** : Liste des parkings avec proximité confirmée.
+
+#### 2.2. Sous-dossier `Graphiques_tableaux`
+Ce dossier contient les graphiques et tableaux générés :
+- Graphiques des taux d'occupation et écarts-types (format PNG et HTML).
+- Tableaux synthétiques des données.
+
+#### 2.3. Sous-dossier `Projet`
+- **`DM1_statistiques.py`** : Fichier Python contenant des fonctions statistiques de base utilisées dans le projet.
+
+#### 2.4. Sous-dossiers `velos` et `voitures`
+Ces dossiers contiennent les fichiers JSON bruts pour les données de parkings vélos et voitures sur 7 jours (du 26 décembre au 1er janvier).
+
+---
+
+### 3. Scripts principaux
+Voici une liste des scripts clés utilisés dans mon projet :
+
+- [Comparer la proximité des parkings](SAE15/Comparer_la_proximité_des_parkings/Comparer_proximité_parkings.py)  
+  Analyse la proximité géographique entre les parkings vélos et voitures.
+- [Récupération des données](SAE15/recuperation_donnees.py)  
+  Programme pour collecter les données brutes via l'API Open Data de Montpellier.
+- [Traitement des données](SAE15/programmes_traitement_donnees.py)  
+  Script pour calculer les taux d'occupation et générer les graphiques.
+
+---
+
+## Accéder aux données
+Les données brutes et résultats sont accessibles via les sous-dossiers dans `SAE15`.
+
+---
+
 
