@@ -137,26 +137,16 @@ Cependant, quand j’ai tenté d’exporter mes résultats depuis Jupyter Notebo
 
 # 7. La Création de la Page Web
 
-Pour centraliser mes résultats, j’ai codé une **page HTML** hébergée sur GitHub. Cette page contient :
+Pour héberger mes résultats sur GitHub, j’ai décidé de coder ma propre page HTML. Cela m’a permis de centraliser tous mes résultats (graphiques interactifs, tableaux, heatmap) et de les rendre accessibles sous forme de page web. J’ai pris soin de bien organiser cette page pour que les différents graphiques et tableaux soient faciles à consulter, tout en expliquant clairement les résultats obtenus.
 
-- Les graphiques interactifs (parkings vélos et voitures).
-- Les graphiques en barres pour les écarts-types.
-- La heatmap des corrélations.
-- Des tableaux récapitulatifs et des explications des résultats.
-
-J’ai pris soin de bien organiser cette page pour que les résultats soient accessibles et compréhensibles.
+J'ai intégré mes graphismes interactifs exportés en HTML (pour les parkings vélos et voitures), mes graphiques en barres pour les écarts-types, et mes tableaux HTML directement dans la page, tout en expliquant chaque étape de l’analyse et les résultats principaux. Cela m’a permis de répondre efficacement à la demande du maire de la ville de Montpellier.
 
 ---
 
 # 8. Conclusion
 
-Ce projet m’a permis de développer des compétences en :
-
-- **Collecte et traitement de données**
-- **Analyse statistique et visualisation graphique**
-
-J’ai étudié l’utilisation des parkings de Montpellier, analysé la relation entre l'occupation des parkings voitures et vélos, et créé des graphes et tableaux pour présenter mes résultats. J’ai également appris à résoudre des problèmes techniques liés aux graphiques interactifs et à intégrer mes analyses dans une page HTML accessible au maire de Montpellier et aux parties prenantes.
-
+En conclusion, ce projet m’a permis de développer des compétences en collecte et traitement de données, analyse statistique, et visualisation graphique. J’ai étudié l’utilisation des parkings de la ville de Montpellier, analysé la relation entre l'occupation des parkings voitures et vélos, et créé des graphes et des tableaux récapitulatifs pour présenter mes résultats.
+Ce travail m’a également permis d’apprendre à résoudre des problèmes techniques liés à la création de graphiques interactifs et à l’intégration de résultats dans une page HTML. Le projet a été finalisé sur une page web hébergée sur GitHub,pour conserver la synthèse de mon analyse de ces données pour la rendre accessible au maire de Montpellier et aux parties prenantes.
 
 ---
 ---
