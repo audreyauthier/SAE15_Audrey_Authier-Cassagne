@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobilité dans Montpellier et son agglomération: une étude de l'utilisation des parkings et du relais voiture / vélo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            padding: 10px;
+            max-width: 1000px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        section {
+            margin: 20px auto;
+            padding: 10px;
+            border-bottom: 2px solid #ddd;
+            max-width: 1000px;
+        }
+        h2, h3 {
+            margin-top: 15px;
+            color: #2c3e50;
+        }
+        
+        p {
+            margin: 10px 0;
+            text-align: justify;
+            text-indent: 2em; /* Ajoute un alinéa */
+            margin-bottom: 1.5em;
+            font-size: 1.2em;
+        }
+        
+        img, iframe {
+            display: block;
+            margin: 40px auto;
+            max-width: 100%;
+            height: auto;
+            width: 90%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 900px;
+            border: none;
+        }
+
+        .large-image {
+            display: block;
+            margin: 40px auto;
+            max-width: 100%;
+            height: auto;
+            width: 170%;
+        }
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        th, td {
+            padding: 8px 12px;
+            text-align: left;
+            border: 1px solid #ccc;
+        }
+        th {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- En-tête de la page -->
+    <header>
+        <h1>Mobilité dans Montpellier et son agglomération: <br> une étude de l'utilisation des parkings et du relais voiture/vélo</h1>
+    </header>
+
+    <!-- Introduction -->
+    <section>
+        <br><h2>Introduction</h2>
+        <p>Dans le cadre de la mission qui m’a été confiée par la mairie de Montpellier sur l’utilisation des parkings de l’agglomération, j’ai été chargée d'analyser les taux d'occupation des parkings voitures, ainsi que des parkings vélos et de vérifier s'il existe une relation entre ces deux types de parkings dans leur utilisation. <br><br>L’objectif est de déterminer si les parkings sont correctement dimensionnés et utilisés de manière adéquate, mais également de vérifier le bon fonctionnement du relais voiture/vélo, en d'autres termes, de vérifier si les utilisateurs de parkings voitures et vélos adoptent des comportements interdépendants, dans le cas d’une proximité géographique de ces parkings. <br><br>Les données ont été extraites via le portail API du site Open Data de Montpellier et couvrent une période de 7 jours, du 26 décembre 2024 au 1er janvier 2025, à des intervalles de 5 minutes entre 6h et 22h incluses. Ce travail a permis de réaliser plusieurs visualisations, facilitant l’interprétation des données, notamment des graphiques de taux d’occupation des parkings voitures et de taux d'utilisation de vélos, ainsi qu’une heatmap de corrélation entre ces deux paramètres étudiés. Pour analyser les résultats, j’ai également pris en compte des facteurs extérieurs comme la gratuité du tramway et des bus pour les résidents de l’agglomération, la période de vacances scolaires, la présence de jours fériés et la saison hivernale, éléments pouvant influencer les habitudes de déplacement des usagers.</p>
+    </section>
+
+    <!-- Analyse des taux d'occupation moyens des parkings voitures -->
+    <section>
+        <h2>1. Analyse des taux d'occupation moyens des parkings voitures</h2>
+        <h3>Voici le graphique interactif des taux d’occupation quotidiens pour les parkings de voitures:</h3>
+        <iframe src="https://audreyauthier.github.io/SAE15_Audrey_Authier-Cassagne/HTMLSAE15/graphique_voitures.html"></iframe>
+        <h3>Voici à présent le graphique des écarts-types des taux d'occupation des parkings voitures:</h3>
+        <img class="large-image" src="https://github.com/audreyauthier/SAE15_Audrey_Authier-Cassagne/raw/main/HTMLSAE15/ecart_type_voitures.png" alt="Graphique Écart Type Voitures">
+        <h3>Et voici le tableau récapitulatif pour les parkings voitures:</h3>
+        <table>
+            <thead>
+                <tr><th>Parking</th><th>Moyenne taux d'occupation (en %)</th><th>Écart-Type des taux d'occupation (en %)</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Antigone</td><td>32.15%</td><td>2.89%</td></tr>
+                <tr><td>Comédie</td><td>45.91%</td><td>15.45%</td></tr>
+                <tr><td>Corum</td><td>38.59%</td><td>12.19%</td></tr>
+                <tr><td>Europa</td><td>23.99%</td><td>7.14%</td></tr>
+                <tr><td>Foch</td><td>85.12%</td><td>0.00%</td></tr>
+                <tr><td>Gambetta</td><td>50.13%</td><td>4.04%</td></tr>
+                <tr><td>Gare</td><td>37.19%</td><td>5.50%</td></tr>
+                <tr><td>Triangle</td><td>32.83%</td><td>16.81%</td></tr>
+                <tr><td>Pitot</td><td>22.18%</td><td>9.54%</td></tr>
+                <tr><td>Circe</td><td>14.56%</td><td>6.75%</td></tr>
+                <tr><td>Garcia Lorca</td><td>18.23%</td><td>2.85%</td></tr>
+                <tr><td>Mosson</td><td>13.88%</td><td>14.38%</td></tr>
+                <tr><td>Sabines</td><td>44.40%</td><td>18.94%</td></tr>
+                <tr><td>Sablassou</td><td>12.82%</td><td>5.75%</td></tr>
+                <tr><td>Saint Jean Le Sec</td><td>13.32%</td><td>5.54%</td></tr>
+                <tr><td>Euromedecine</td><td>24.21%</td><td>4.06%</td></tr>
+                <tr><td>Occitanie</td><td>23.73%</td><td>8.47%</td></tr>
+                <tr><td>Vicarello</td><td>22.24%</td><td>12.51%</td></tr>
+                <tr><td>Gaumont EST</td><td>12.91%</td><td>11.98%</td></tr>
+                <tr><td>Gaumont OUEST</td><td>67.49%</td><td>34.48%</td></tr>
+                <tr><td>Charles de Gaulle</td><td>38.35%</td><td>3.50%</td></tr>
+                <tr><td>Polygone</td><td>29.16%</td><td>16.05%</td></tr>
+                <tr><td>Arc de Triomphe</td><td>69.12%</td><td>9.39%</td></tr>
+                <tr><td>Gaumont-Circe</td><td>23.82%</td><td>15.96%</td></tr>
+            </tbody>
+        </table>
+        <br><br>
+        <p>L'analyse des taux d'occupation moyens des parkings voitures révèle des disparités significatives entre les différents parkings. 
+            <br><br>Lorsque les taux d’occupation moyens sont élevés, cela indique une forte demande pour ces espaces de stationnement. On observe ainsi une forte demande pour le parking Gaumont Ouest, situé près du cinéma Gaumont Multiplexe, avec un taux d'occupation moyen de 67,49%, mais il faut prendre en compte que ce sont les vacances scolaires et que les vacanciers pourraient être, par conséquent, plus enclins à se rendre au cinéma. En dehors de cette période, il est possible que ce taux d'occupation moyen soit moins élevé.
+            <br><br>On peut remarquer que les parkings du centre-ville comme Arc de Triomphe sont à forte occupation avec un taux d’occupation moyen de 69,12% et d’autres ont relativement une bonne occupation (entre 29,16% et 50,13%) pour des parkings tels que Gambetta, Gare, Corum, Comédie, Polygone ou encore Antigone. 
+            <br><br>À l’inverse, certains parkings situés plutôt sur la périphérie, montrent des taux d'occupation moyens très faibles, comme Sablassou (12,82%), Mosson (13,88%) et Gaumont Est (12,91%). Cependant, sur ces parkings périphériques, la période de vacances scolaires peut aussi avoir une influence, d’autant que les facultés et certains lycées situés en périphérie sont fermés.</p>
+        <br>
+        <p>Les écarts-types par rapport à la moyenne indiquent si le taux d'occupation des parkings varie au cours de la journée et de la semaine (dispersion des données autour de la moyenne). En se référant au graphique d'occupation des parkings voitures sur 7 jours, on peut noter une baisse généralisée de l'occupation le dimanche 29 décembre, ainsi que le mercredi 1er janvier (jour férié), ce qui suggère que leur usage est en partie lié aux activités professionnelles et commerciales. 
+            <br><br>Un écart-type élevé signale que le taux d'occupation fluctue de manière importante selon les heures et les jours de la semaine étudiée, ce qui pourrait indiquer des périodes de forte affluence, suivies de périodes plus calmes. C’est le cas du parking Gaumont Ouest, qui présente un écart-type élevé de 34%. Avec un taux d’occupation moyen relativement élevé de 67,49%, cela suggère une utilisation importante de celui-ci, mais irrégulière, le parking étant fortement rempli à certains moments de la journée et davantage certains jours. Cette fluctuation pourrait être liée à la proximité du cinéma et au rythme des séances, d’autant plus que les données ont été relevées pendant une période de vacances scolaires.
+            <br><br>En revanche, un écart-type faible suggère que le taux d'occupation reste relativement stable tout au long de la journée et de la semaine, ce qui est le cas sur des parkings plus périphériques, comme Euromédecine et Sablassou (autour de 5%), ce qui, corrélé avec leur faible taux d’occupation, montre une faible utilisation permanente.
+            <br><br>On peut noter que les parkings du centre-ville montrent un écart-type relativement moyen (même si non négligeable) autour de 15%, ce qui, corrélé avec leur taux d’occupation assez élevé, montre une saturation fréquente de ces parkings, notamment pour le parking Arc de Triomphe (taux d’occupation moyen de 69,12%) qui présente un écart-type de 9,39% seulement. 
+            <br><br>Par ailleurs, il convient de souligner que le taux d’occupation moyen du parking Foch est totalement stable à 85,12% (écarts type à 0%). Bien qu’il soit un parking du centre-ville, donc potentiellement très sollicité, ces chiffres semblent refléter une anomalie, les données fournies par le site sont probablement erronées du fait d’un bug ou bien il se pourrait que le parking ait été fermé au moment de cette étude.
+        </p>
+        <br>
+        <p>Ces résultats montrent que certains parkings voitures sont souvent assez pleins, reflétant une forte demande, tandis que d'autres restent peu utilisés.</p>
+        <br>
+    </section>
+
+    <!-- Analyse des taux d'utilisation moyens des vélos -->
+    <section>
+        <h2>2. Analyse des taux d'utilisation moyens des vélos</h2>
+        <h3>Voici le graphique interactif du taux d'utilisation quotidien des vélos par parking:</h3>
+        <iframe src="https://audreyauthier.github.io/SAE15_Audrey_Authier-Cassagne/HTMLSAE15/graphique_velos.html"></iframe>
+        <h3>Voici à présent le graphique des écarts-types du taux d'utilisation des parkings vélos:</h3>
+        <img class="large-image" src="https://github.com/audreyauthier/SAE15_Audrey_Authier-Cassagne/raw/main/HTMLSAE15/ecart_type_velos.png" alt="Graphique Écart Type Vélos">
+        <h3>Et voici le tableau récapitulatif pour les parkings vélos:</h3>
+        <table>
+            <thead>
+                <tr><th>Parking</th><th>Moyenne taux d'utilisation (en %)</th><th>Écart-Type des taux d'utilisation (en %)</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Rue Jules Ferry - Gare Saint-Roch</td><td>52.07 %</td><td>15.87 %</td></tr>
+                <tr><td>Comédie</td><td>44.78 %</td><td>21.43 %</td></tr>
+                <tr><td>Hôtel de Ville</td><td>56.53 %</td><td>20.07 %</td></tr>
+                <tr><td>Corum</td><td>33.98 %</td><td>18.63 %</td></tr>
+                <tr><td>Place Albert 1er - St Charles</td><td>53.45 %</td><td>20.38 %</td></tr>
+                <tr><td>Foch</td><td>44.50 %</td><td>28.81 %</td></tr>
+                <tr><td>Halles Castellane</td><td>53.55 %</td><td>24.17 %</td></tr>
+                <tr><td>Observatoire</td><td>55.65 %</td><td>25.48 %</td></tr>
+                <tr><td>Rondelet</td><td>45.46 %</td><td>24.57 %</td></tr>
+                <tr><td>Plan Cabanes</td><td>32.64 %</td><td>14.15 %</td></tr>
+                <tr><td>Boutonnet</td><td>56.30 %</td><td>18.28 %</td></tr>
+                <tr><td>Emile Combes</td><td>65.28 %</td><td>13.26 %</td></tr>
+                <tr><td>Beaux-Arts</td><td>34.73 %</td><td>7.89 %</td></tr>
+                <tr><td>Les Aubes</td><td>20.92 %</td><td>18.07 %</td></tr>
+                <tr><td>Antigone centre</td><td>56.96 %</td><td>24.31 %</td></tr>
+                <tr><td>Médiathèque Emile Zola</td><td>67.80 %</td><td>22.89 %</td></tr>
+                <tr><td>Nombre d Or</td><td>38.51 %</td><td>18.29 %</td></tr>
+                <tr><td>Louis Blanc</td><td>54.11 %</td><td>20.28 %</td></tr>
+                <tr><td>Gambetta</td><td>42.21 %</td><td>13.85 %</td></tr>
+                <tr><td>Port Marianne</td><td>59.12 %</td><td>21.39 %</td></tr>
+                <tr><td>Les Arceaux</td><td>56.48 %</td><td>23.18 %</td></tr>
+                <tr><td>Cité Mion</td><td>69.04 %</td><td>8.82 %</td></tr>
+                <tr><td>Nouveau Saint-Roch</td><td>41.90 %</td><td>30.25 %</td></tr>
+                <tr><td>Renouvier</td><td>63.59 %</td><td>30.87 %</td></tr>
+                <tr><td>Odysseum</td><td>100.00 %</td><td>0.00 %</td></tr>
+                <tr><td>Saint-Denis</td><td>100.00 %</td><td>0.00 %</td></tr>
+                <tr><td>Richter</td><td>57.63 %</td><td>9.56 %</td></tr>
+                <tr><td>Charles Flahault</td><td>61.60 %</td><td>15.74 %</td></tr>
+                <tr><td>Voltaire</td><td>56.45 %</td><td>28.45 %</td></tr>
+                <tr><td>Prés d Arènes</td><td>83.90 %</td><td>14.67 %</td></tr>
+                <tr><td>Garcia Lorca</td><td>88.74 %</td><td>12.02 %</td></tr>
+                <tr><td>Vert Bois</td><td>60.99 %</td><td>20.82 %</td></tr>
+                <tr><td>Malbosc</td><td>64.49 %</td><td>12.17 %</td></tr>
+                <tr><td>Occitanie</td><td>69.58 %</td><td>10.34 %</td></tr>
+                <tr><td>FacdesSciences</td><td>71.06 %</td><td>14.77 %</td></tr>
+                <tr><td>Fac de Lettres</td><td>32.86 %</td><td>14.23 %</td></tr>
+                <tr><td>Aiguelongue</td><td>27.87 %</td><td>22.11 %</td></tr>
+                <tr><td>Jeu de Mail des Abbés</td><td>30.06 %</td><td>15.67 %</td></tr>
+                <tr><td>Euromédecine</td><td>56.85 %</td><td>9.62 %</td></tr>
+                <tr><td>Marie Caizergues</td><td>39.54 %</td><td>26.56 %</td></tr>
+                <tr><td>Sabines</td><td>46.15 %</td><td>21.94 %</td></tr>
+                <tr><td>Celleneuve</td><td>84.52 %</td><td>16.79 %</td></tr>
+                <tr><td>Jardin de la Lironde</td><td>48.37 %</td><td>23.61 %</td></tr>
+                <tr><td>Père Soulas</td><td>41.44 %</td><td>21.35 %</td></tr>
+                <tr><td>Place Viala</td><td>21.47 %</td><td>27.23 %</td></tr>
+                <tr><td>Hôtel du Département</td><td>72.07 %</td><td>9.62 %</td></tr>
+                <tr><td>Tonnelles</td><td>60.00 %</td><td>26.58 %</td></tr>
+                <tr><td>Parvis Jules Ferry - Gare Saint-Roch</td><td>68.44 %</td><td>20.54 %</td></tr>
+                <tr><td>Pont de Lattes - Gare Saint-Roch</td><td>47.29 %</td><td>15.26 %</td></tr>
+                <tr><td>Deux Ponts - Gare Saint-Roch</td><td>34.42 %</td><td>5.43 %</td></tr>
+                <tr><td>Providence - Ovalie</td><td>41.14 %</td><td>12.31 %</td></tr>
+                <tr><td>Pérols Etang de l Or</td><td>56.68 %</td><td>7.16 %</td></tr>
+                <tr><td>Albert 1er - Cathédrale</td><td>64.78 %</td><td>18.70 %</td></tr>
+                <tr><td>Saint-Guilhem - Courreau</td><td>74.45 %</td><td>17.05 %</td></tr>
+                <tr><td>Sud De France</td><td>18.87 %</td><td>14.75 %</td></tr>
+                <tr><td>Comedie Baudin</td><td>63.22 %</td><td>10.78 %</td></tr>
+                <tr><td>Jean de Beins</td><td>79.13 %</td><td>4.70 %</td></tr>
+            </tbody>
+        </table>
+        <br><br>
+        <p>L’analyse des taux d’utilisation moyens des vélos montre des disparités dans l’utilisation des vélos selon les zones de l’agglomération.
+            <br><br>On peut noter par exemple une forte utilisation sur des sites périphériques du centre-ville, révélant un usage probable pour rejoindre le centre-ville. Avec notamment des parkings très sollicités en location de vélos comme Garcia Lorca (88,74%) et Près d'Arènes (83,90%) atteignant régulièrement les 100%, certains jours, montrant une utilisation maximale des vélos disponibles et probablement un besoin supplémentaire de vélos dans ces parkings là.
+            <br><br>On trouve une utilisation des vélos plutôt très bonne en centre-ville avec notamment des taux d’utilisation moyens élevés pour les parkings vélos de Comédie (76,8%) et Gare Saint-Roch (69,2%), pouvant s'expliquer par le fait que le centre-ville est devenu presque exclusivement piéton et que le tramway et les bus ne suffisent pas à eux seuls à assurer une bonne circulation des usagers. 
+            <br><br>À l’inverse on retrouve un taux d'utilisation moyen plutôt faible (21,88%) pour Gare du Sud avec des jours à 0%, ce qui peut s’expliquer par le fait que la gare est très excentrée et sans piste cyclable aménagée à ce jour, ce qui est dangereux d'autant qu’il n’est pas possible de circuler à vélo lorsqu’on a une valise, cette gare étant destinée aux grandes lignes. On retrouve également des faibles taux d'utilisation moyens des vélos pour certains parkings, comme pour Les Aubes (20,92%) ou relativement faible comme pour Place Viala (21,47% et pouvant descendre à 0% certains jours). Cela montre que certains parkings monopolisent des vélos qui seraient bien utiles pour d'autres lieux en déficit, mentionnés plus haut et qu’une étude approfondie serait souhaitable afin de mieux rééquilibrer le parc.</p>
+            <br>
+        <p>Les écarts-types dans les utilisations de vélos sont variables mais globalement non négligeables, indiquant une utilisation irrégulière, pour autant, le graphique des taux d'utilisation des vélos sur 7 jours, ne montre pas de chute d'utilisation plus marquée certains jours de la semaine, contrairement au graphique des taux d’occupation des voitures. 
+            <br><br>Les quelques variations d’utilisation sur la journée et sur la semaine peuvent être influencées par les raisons des locations de vélos qui peuvent rendre les locations ponctuelles, tels que les déplacements domicile-travail ou d’autres activités commerciales. De plus, l’analyse a été réalisée en période de vacances scolaires et certains jours de congés ont pu être posés dans la semaine, modifiant les habitudes d’utilisation d’un jour sur l’autre. Par ailleurs, la période hivernale pourrait réduire la demande de location de vélos en raison des conditions propres à cette saison, telles que la diminution des heures de lumière, la fréquence accrue des journées de mauvais temps et les températures plus basses, qui découragent probablement les déplacements à vélo à certains moments de la journée et certains jours. Enfin, étant donné que la location de vélos est payante, on peut supposer que les habitants privilégient le tramway ou les bus, qui sont gratuits pour les habitants de l’agglomération, aux heures et jours où ces alternatives sont disponibles.
+            <br><br>Par ailleurs, deux stations de vélos, à savoir, Saint-Denis et Odysseum, montrent un taux d’utilisation moyen totalement fixe à 100% (écarts-types à 0%), indiquant potentiellement une anomalie, les données fournies par le site sont peut-être erronées du fait d’un bug, ou bien il n’y a aucun vélo disponible, non pas parce qu'ils sont loués, mais pour d’autres raisons. Par exemple, parce que ces parkings ont été évalués comme non rentables et les vélos ont été redistribués sur d’autres sites (ce qui semble cependant peu logique pour le parking Saint-Denis qui est en centre-ville et qui, si on se réfère aux autres parkings vélos du centre-ville devrait être sollicité). Ou encore parce que les vélos censés être présents sont en réparations et par manque de vélos sur l’ensemble des parcs, ils n’ont pas été remplacés. Ou bien, parce qu’étant donné que l’étude n’a été réalisée que sur 7 jours et durant les vacances scolaires, il est possible qu’il n’y ait pas eu de redistribution de vélos pour remplir ces sites (personnels en vacances, manque temporaire de vélos) ou bien qu’il y ait eu des erreurs dans la redistribution si elle a eu lieu.  
+            </p>
+            <br>
+            <p>Ces résultats montrent que des parkings vélos peuvent être totalement vides certains jours, reflétant une forte demande de location de vélos sur ces sites, tandis que d'autres restent peu utilisés.
+            </p><br>
+    </section>
+
+    <!-- Heatmap des corrélations -->
+    <section>
+        <h2>3. Heatmap des corrélations entre utilisation des vélos et occupation des parkings voitures</h2>
+        <h3>Voici la heatmap des corrélations entre les parkings voitures et les parkings vélos proches:</h3>
+        <img class="large-image" src="https://github.com/audreyauthier/SAE15_Audrey_Authier-Cassagne/raw/main/HTMLSAE15/heatmap.png" alt="Heatmap des Corrélations">
+         <!-- Tableau des parkings à moins de 500m les uns des autres -->
+         <h3>Voici le tableau des parkings à moins de 500m les uns des autres:</h3>
+         <table>
+             <thead>
+                 <tr><th>Parking Voiture</th><th>Parking Vélo</th><th>Distance</th></tr>
+             </thead>
+             <tbody>
+                 <tr><td>Antigone</td><td>Antigone centre</td><td>0.22 km</td></tr>
+                 <tr><td>Antigone</td><td>Médiathèque Emile Zola</td><td>0.48 km</td></tr>
+                 <tr><td>Antigone</td><td>Nombre d Or</td><td>0.26 km</td></tr>
+                 <tr><td>Comedie</td><td>Rue Jules Ferry - Gare Saint-Roch</td><td>0.4 km</td></tr>
+                 <tr><td>Comedie</td><td>Comédie</td><td>0.12 km</td></tr>
+                 <tr><td>Comedie</td><td>Halles Castellane</td><td>0.32 km</td></tr>
+                 <tr><td>Comedie</td><td>Observatoire</td><td>0.38 km</td></tr>
+                 <tr><td>Comedie</td><td>Pont de Lattes - Gare Saint-Roch</td><td>0.41 km</td></tr>
+                 <tr><td>Comedie</td><td>Deux Ponts - Gare Saint-Roch</td><td>0.49 km</td></tr>
+                 <tr><td>Comedie</td><td>Comedie Baudin</td><td>0.12 km</td></tr>
+                 <tr><td>Comedie</td><td>Jean de Beins</td><td>0.48 km</td></tr>
+                 <tr><td>Corum</td><td>Corum</td><td>0.07 km</td></tr>
+                 <tr><td>Corum</td><td>Emile Combes</td><td>0.41 km</td></tr>
+                 <tr><td>Corum</td><td>Beaux-Arts</td><td>0.43 km</td></tr>
+                 <tr><td>Corum</td><td>Jean de Beins</td><td>0.48 km</td></tr>
+                 <tr><td>Europa</td><td>Antigone centre</td><td>0.21 km</td></tr>
+                 <tr><td>Europa</td><td>Médiathèque Emile Zola</td><td>0.08 km</td></tr>
+                 <tr><td>Foch</td><td>Comédie</td><td>0.38 km</td></tr>
+                 <tr><td>Foch</td><td>Foch</td><td>0.36 km</td></tr>
+                 <tr><td>Foch</td><td>Halles Castellane</td><td>0.11 km</td></tr>
+                 <tr><td>Foch</td><td>Observatoire</td><td>0.5 km</td></tr>
+                 <tr><td>Foch</td><td>Louis Blanc</td><td>0.45 km</td></tr>
+                 <tr><td>Foch</td><td>Saint-Guilhem - Courreau</td><td>0.47 km</td></tr>
+                 <tr><td>Gambetta</td><td>Foch</td><td>0.5 km</td></tr>
+                 <tr><td>Gambetta</td><td>Plan Cabanes</td><td>0.37 km</td></tr>
+                 <tr><td>Gambetta</td><td>Gambetta</td><td>0.08 km</td></tr>
+                 <tr><td>Gambetta</td><td>Saint-Denis</td><td>0.46 km</td></tr>
+                 <tr><td>Gambetta</td><td>Saint-Guilhem - Courreau</td><td>0.27 km</td></tr>
+                 <tr><td>Gare</td><td>Rue Jules Ferry - Gare Saint-Roch</td><td>0.31 km</td></tr>
+                 <tr><td>Gare</td><td>Comédie</td><td>0.46 km</td></tr>
+                 <tr><td>Gare</td><td>Observatoire</td><td>0.31 km</td></tr>
+                 <tr><td>Gare</td><td>Rondelet</td><td>0.36 km</td></tr>
+                 <tr><td>Gare</td><td>Saint-Denis</td><td>0.44 km</td></tr>
+                 <tr><td>Gare</td><td>Parvis Jules Ferry - Gare Saint-Roch</td><td>0.05 km</td></tr>
+                 <tr><td>Gare</td><td>Pont de Lattes - Gare Saint-Roch</td><td>0.45 km</td></tr>
+                 <tr><td>Gare</td><td>Deux Ponts - Gare Saint-Roch</td><td>0.23 km</td></tr>
+                 <tr><td>Triangle</td><td>Rue Jules Ferry - Gare Saint-Roch</td><td>0.43 km</td></tr>
+                 <tr><td>Triangle</td><td>Comédie</td><td>0.36 km</td></tr>
+                 <tr><td>Triangle</td><td>Pont de Lattes - Gare Saint-Roch</td><td>0.36 km</td></tr>
+                 <tr><td>Triangle</td><td>Comedie Baudin</td><td>0.13 km</td></tr>
+                 <tr><td>Triangle</td><td>Jean de Beins</td><td>0.24 km</td></tr>
+                 <tr><td>Pitot</td><td>Foch</td><td>0.38 km</td></tr>
+                 <tr><td>Pitot</td><td>Plan Cabanes</td><td>0.46 km</td></tr>
+                 <tr><td>Pitot</td><td>Les Arceaux</td><td>0.28 km</td></tr>
+                 <tr><td>Pitot</td><td>Albert 1er - Cathédrale</td><td>0.39 km</td></tr>
+                 <tr><td>Pitot</td><td>Saint-Guilhem - Courreau</td><td>0.46 km</td></tr>
+                 <tr><td>Circe</td><td>Odysseum</td><td>0.19 km</td></tr>
+                 <tr><td>Garcia Lorca</td><td>Garcia Lorca</td><td>0.03 km</td></tr>
+                 <tr><td>Sabines</td><td>Sabines</td><td>0.05 km</td></tr>
+                 <tr><td>Euromedecine</td><td>Euromédecine</td><td>0.06 km</td></tr>
+                 <tr><td>Occitanie</td><td>Occitanie</td><td>0.07 km</td></tr>
+                 <tr><td>Gaumont EST</td><td>Odysseum</td><td>0.42 km</td></tr>
+                 <tr><td>Gaumont EST</td><td>Jardin de la Lironde</td><td>0.44 km</td></tr>
+                 <tr><td>Gaumont OUEST</td><td>Jardin de la Lironde</td><td>0.31 km</td></tr>
+                 <tr><td>Polygone</td><td>Rue Jules Ferry - Gare Saint-Roch</td><td>0.5 km</td></tr>
+                 <tr><td>Polygone</td><td>Nombre d Or</td><td>0.17 km</td></tr>
+                 <tr><td>Polygone</td><td>Pont de Lattes - Gare Saint-Roch</td><td>0.36 km</td></tr>
+                 <tr><td>Polygone</td><td>Comedie Baudin</td><td>0.5 km</td></tr>
+                 <tr><td>Polygone</td><td>Jean de Beins</td><td>0.28 km</td></tr>
+                 <tr><td>Arc de Triomphe</td><td>Foch</td><td>0.02 km</td></tr>
+                 <tr><td>Arc de Triomphe</td><td>Halles Castellane</td><td>0.46 km</td></tr>
+                 <tr><td>Arc de Triomphe</td><td>Albert 1er - Cathédrale</td><td>0.33 km</td></tr>
+                 <tr><td>Arc de Triomphe</td><td>Saint-Guilhem - Courreau</td><td>0.23 km</td></tr>
+                 <tr><td>Gaumont-Circe</td><td>Odysseum</td><td>0.19 km</td></tr>
+             </tbody>
+         </table>
+        <br>
+         <!-- Résultats des parkings sans proximité -->
+         <h3>Enfin, voici les parkings sans proximité (soit à plus de 500m):</h3>
+ 
+         <h3>-> 5/24 parkings voiture sont sans proximité avec un parking vélo (distance > 500m), à savoir:</h3>
+         <ul>
+             <li>Mosson</li>
+             <li>Sablassou</li>
+             <li>Saint Jean Le Sec</li>
+             <li>Vicarello</li>
+             <li>Charles de Gaulle</li>
+         </ul>
+ 
+         <h3>-> 27/57 parkings vélo sont sans proximité avec un parking voiture (distance > 500m), à savoir:</h3>
+         <ul>
+             <li>Hôtel de Ville</li>
+             <li>Place Albert 1er - St Charles</li>
+             <li>Boutonnet</li>
+             <li>Les Aubes</li>
+             <li>Port Marianne</li>
+             <li>Cité Mion</li>
+             <li>Nouveau Saint-Roch</li>
+             <li>Renouvier</li>
+             <li>Richter</li>
+             <li>Charles Flahault</li>
+             <li>Voltaire</li>
+             <li>Prés d'Arènes</li>
+             <li>Vert Bois</li>
+             <li>Malbosc</li>
+             <li>FacdesSciences</li>
+             <li>Fac de Lettres</li>
+             <li>Aiguelongue</li>
+             <li>Jeu de Mail des Abbés</li>
+             <li>Marie Caizergues</li>
+             <li>Celleneuve</li>
+             <li>Père Soulas</li>
+             <li>Place Viala</li>
+             <li>Hôtel du Département</li>
+             <li>Tonnelles</li>
+             <li>Providence - Ovalie</li>
+             <li>Pérols Etang de l'Or</li>
+             <li>Sud De France</li>
+         </ul>
+        <br>
+        <p>La corrélation mesure la relation entre ces deux variables. Elle est quantifiée par un coefficient qui varie entre +1 et -1 et elle est représentée sur le graphique heatmap par la couleur rouge pour des coefficients positifs et bleue pour des coefficients négatifs avec un dégradé pour chaque couleur, indiquant des corrélations plus ou moins fortes. 
+            Ainsi :
+            <br> - Un coefficient de +1 correspond à une corrélation positive parfaite (rouge foncé), ce qui signifie que lorsque l'une des variables augmente, l'autre augmente également.
+            <br> - Un coefficient positif signifie que les variables évoluent dans le même sens et que plus elles se rapprochent de 1, plus elles sont liées de manière linéaire. 
+            <br> - Un coefficient de 0 indique qu’il n’y a aucune corrélation, ce qui signifie que les variables sont indépendantes l'une de l'autre.
+            <br> - Un coefficient de -1 correspond à une corrélation négative parfaite (bleue foncé), indiquant qu'une augmentation d'une variable entraîne une diminution de l'autre.
+            <br> - Un coefficient négatif signifie que lorsque l'une des variables augmente, l'autre a tendance à diminuer et que plus elles se rapprochent de -1 plus elles sont liées de manière linéaire.
+            <br></p><br>
+            <p>Pour être cohérent dans l’étude, j'ai estimé qu’une distance de 500 mètres (environ 5 minutes à pied) serait une distance raisonnable pour analyser la proximité des parkings vélos et des parkings voitures et mettre en corrélation le taux d’occupation des parkings voitures avec le taux d’utilisation des vélos. Le but étant de voir dans quelle mesure les personnes se garant dans un parking de voitures, louent un vélo présent dans un parking vélos se trouvant à proximité. J’ai donc répertorié dans un tableau les "paires” de parking que l’on devait étudier (distantes de moins de 500 m) et laissé de côté certains parkings car trop éloignés (listés dans un autre tableau). De ce fait, le graphique heatmap ne peut-être lu seulement par les couleurs qu’il présente, il faut aussi vérifier dans les corrélations que l’on trouve, que celles-ci correspondent bien à une paire retenue pour l’étude. 
+            </p><br><p>Dans le cas d’une corrélation positive forte (corrélations ≥ 0,7, en rouge soutenu) entre l’occupation des parkings voitures et l’utilisation des vélos, cela indique que lorsque le parking voitures se remplit, la station vélos voit également une augmentation de son utilisation, cela suggère que les personnes venant se garer en voiture choisissent ensuite de louer un vélo, pour poursuivre leur trajet. 
+                <br><br>On retrouve des corrélations fortes entre des parkings voitures et vélos portant le même nom (donc situés côte à côte) pour Corum, Gambetta, Occitanie, Garcia Lorca, Sabines. On peut donc supposer que cette proximité de parking est fortement favorable à une utilisation du parking voitures suivie d’une location de vélos dans ces zones là (principalement centre-ville et périphérie Nord pour Occitanie, Ouest pour Sabines et Sud pour Garcia Lorca). 
+                <br><br>Bien qu'une corrélation élevée indique une relation, il est important de noter que cela ne prouve pas la causalité. D'autres facteurs peuvent influencer la présence de cette relation. Par exemple, la présence du tramway ou des bus peut fausser une corrélation forte entre la location de vélos et l’occupation des parkings voitures. En effet, certains usagers peuvent se garer pour prendre le tramway ou le bus, sans utiliser les vélos, tandis que d’autres, arrivant en tramway ou en bus, peuvent louer des vélos à proximité. Dans une zone dense en moyens de transport, cette activité accrue peut donner l’impression d’un lien direct entre l’occupation du parking voitures et la location des vélos, alors qu’ils ne sont pas forcément utilisés successivement par les mêmes usagers. Ces corrélations élevées sont donc à étudier au cas par cas.
+            </p><br><p>Dans le cas d’une corrélation négative forte (corrélations ≤ -0,7, en bleu soutenu) comme entre le parking voitures de la Comédie et le parking vélos de Comédie Baudin, lorsque le parking voitures se remplit, l’utilisation des vélos diminue fortement, et vice versa. Cela peut refléter un manque de complémentarité entre ces infrastructures, bien qu’elles soient très proches, comme on peut le voir sur le tableau (0,12 km). De même, on trouve une corrélation négative assez forte entre le parking voitures de la Comédie et le parking vélos de Deux Ponts-Gare Saint-Roch (distants de 0,49 km). Les usagers des parkings voitures et vélos peuvent malgré la proximité ne pas utiliser ces infrastructures conjointement car les utilisateurs des parkings voitures pourraient privilégier d'autres moyens comme le tramway ou le bus (gratuit pour les habitants de l’agglomération) ou parce que les parkings vélos proches des parkings voitures pourraient ne pas être attractifs pour des raisons tarifaires ou pratiques, ou encore parce que les parkings vélos sont peut-être mal indiqués (signalisation peu visible). 
+            </p><br><p>Par ailleurs, un manque de corrélation (couleurs pastels très claires) peut s'expliquer par une trop grande variabilité des données. En effet, si les données montrent des écarts importants (valeurs fluctuantes), cela peut diminuer les corrélations, par exemple, si un parking voitures présente une occupation stable, mais que la location des vélos du parking proche a des variations non négligeable, la corrélation sera faible. 
+                <br><br>C’est le cas, avec une corrélation négative très faible (bleu très pastel), pour le parking voitures Gare Saint Roch qui présente un taux d’occupation moyen de 37,19%, avec un écart type faible de 5,5% (donc un taux d’occupation moyen plutôt fixe), alors que le taux d’utilisation moyen des vélos au parking Pont de Lattes-Gare Saint-Roch (distants de 0,45 km) est de 47,29% mais avec un écart type de 15,26%, ce qui indique que le taux d’utilisation moyen présente une variation non négligeable, et il en résulte que la corrélation entre ces deux parkings est assez faible.
+                <br><br>Ce manque de corrélation signifie que la location de vélos dans le parking vélos Pont de Lattes-Gare Saint-Roch est assez indépendante du comportement des usagers du parkings voitures Gare Saint Roch (et réciproquement). On peut imaginer que les personnes qui se garent à Saint Roch, utilisent éventuellement un autre moyen de transport ensuite comme le train, le tramway ou le bus. 
+            </p><br><p>À l'extrême, lorsque les écarts-types sont nuls pour des parkings comme Foch, Odysseum ou Saint-Denis, alors les valeurs des taux d’occupation ou d’utilisation moyens, sont fixes, or comme les parkings proches avec lesquels on cherche une corrélation, présentent une certaine fluctuation dans leur occupation ou leur location, puisqu’on ne peut établir de lien linéaire entre ces deux variables (l’une étant fixe), cela entraînent des coefficient de corrélation nuls (couleurs grises).
+                <br><br>Si les données relevées sur ces trois parkings étaient finalement exactes et que ces taux (élevés, voire maximum), s’avéraient réellement fixes (donc avec une écart type nul), alors les deux variables étudiées seraient totalement indépendantes. 
+                <br><br>Pour autant cela ne voudrait pas dire que les personnes n’utilisent pas les deux modes de transport successivement, mais la saturation permanente des parkings voitures ou le manque permanent de vélos empêcherait la lecture d’une corrélation avec des parkings proches par manque de relation linéaire observable. Cela indiquerait plutôt que les limites des infrastructures (saturation ou pénurie) empêchent toute variation dans les données et toute lecture de corrélation possible sur le graphique heatmap.
+            </p><br>  
+
+    </section>
+
+    <!-- Propositions et recommandations -->
+    <section>
+        <h2>4. Propositions et recommandations</h2>
+        <br>
+        <p>À partir de ces analyses, voici quelques propositions à destination de la mairie de Montpellier pour améliorer la gestion des parkings et encourager une plus grande utilisation des vélos.
+            </p><br><p>Tout d'abord, ces résultats montrent que certains parkings voitures peuvent être sous-dimensionnés (ceux du centre-ville, entre autres celui de l’Arc de Triomphe) et qu’à l’inverse certains (tels que Sablassou, Mosson et Gaumont Est) sont sur-dimensionnés ou sous-utilisés.
+                <br><br>La mairie pourrait envisager d’élargir la capacité de ces parkings saturés (ajouter des places si possible), ou de mieux répartir l’utilisation à travers la ville, via des incitations pour attirer davantage d’usagers (signalisation, partenariats avec entreprises locales). 
+                <br><br>Par ailleurs, pour limiter la saturation des parkings voitures, si de nouvelles lignes de tramway sont mises en place ou si la fréquence des passages est augmentée, cela pourrait entraîner une diminution de l’utilisation des parkings voitures dans les zones bien desservies. L’effet pourrait être particulièrement visible dans les quartiers périphériques où le tramway n’est pas encore assez présent. 
+            </p><br><p>Cette étude montre également que certains parkings vélos monopolisent des vélos (Gare du Sud, Les Aubes, Place Viala) qui seraient bien utiles pour d'autres lieux en déficit (Garcia Lorca et Près d'Arènes) et qu’il serait souhaitable que la mairie fasse une étude approfondie, afin de mieux rééquilibrer le parc de location et d’éventuellement augmenter le nombre total de vélos disponibles. 
+                <br><br>Pour rendre les vélos plus attractifs dans les zones où ils sont sous-utilisés, il serait utile de mieux signaler les stations. Cela pourrait passer par l’installation de panneaux pour indiquer clairement leur emplacement, notamment à proximité des parkings voitures, et par la promotion des stations moins fréquentées à travers une application mobile performante (celle existante n’étant assez réactive), ou encore à travers des campagnes de communication. 
+                <br><br>Pour inciter les personnes à louer des vélos il pourrait être pertinent d’offrir des tarifs très avantageux, voire la gratuité des locations (d’autant que la mairie est d’un parti écologique) pour encourager les résidents à utiliser les vélos, notamment en hiver, la gratuité du tramway et du bus ayant permis d'augmenter considérablement l’utilisation de ces derniers. 
+                <br><br>De plus, l'ajout de nouveaux parkings vélos, dans les zones proches des stations de tramway ou dans certains parkings voitures comme Mosson qui n'en dispose pas à ce jour, pourrait également favoriser l’utilisation du vélo, notamment pour les trajets courts. 
+            </p><br><p>Par ailleurs, les analyses indiquent globalement que la proximité géographique entre un parking voitures et une station vélos joue un rôle majeur dans la connexion entre l’utilisation des parkings voitures et la location des vélos qui s'ensuit, mais que cela ne suffit pas. En effet, certaines « paires » de parkings avec des parkings voitures et stations vélos pourtant proches, n'ayant pas démontré un lien suffisant dans leurs utilisations successives et qu’il est donc essentiel d’en étudier les raisons au cas par cas, comme la présence d’offres de transports alternatives et potentiellement gratuites.
+                <br><br>Ainsi, une stratégie sur mesure est nécessaire pour améliorer l'utilisation combinée des deux modes de transport et d’une manière plus générale pour optimiser l’ensemble des infrastructures, en introduisant par exemple des innovations technologiques comme des capteurs fiables pour surveiller en temps réel l’occupation des parkings voitures et vélos, afin d’ajuster rapidement l’offre (par exemple, redéploiement de vélos en fonction des besoins). 
+                <br><br>Pour affiner son travail, la mairie pourrait recueillir les avis des usagers en faisant des enquêtes locales pour comprendre pourquoi certains parkings sont sous-utilisés. 
+                <br><br>Enfin, il pourrait être intéressant de penser à long terme, en sensibilisant les usagers actuels et futurs. Cela pourrait passer par des actions dans les écoles, les universités ou auprès des entreprises locales, pour encourager des habitudes de transport plus durables et promouvoir l’utilisation combinée de ces différents moyens de transport.
+            </p><br><p>Pour finir, il est important de noter que cette étude ayant été réalisée sur 7 jours et sur une période hivernale de vacances scolaires, il serait donc indispensable pour avoir une vision plus pertinente, que la mairie l'étende à une année complète.
+            </p><br>
+    </section>
+
+</body>
+</html>
