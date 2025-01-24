@@ -211,4 +211,6 @@ Voici une liste des scripts clés utilisés dans mon projet :
 
 ---
 
+Merci d'avoir pris le temps de lire tout ceci et de vous intéresser à mon projet!
+
 
