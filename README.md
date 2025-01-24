@@ -128,17 +128,10 @@ Afin de rendre les résultats accessibles, j’ai créé plusieurs types de grap
 - **Tableaux récapitulatifs**, contenant des informations comme les moyennes des taux d’utilisation et les écarts-types.
 
 ### Défis rencontrés
-1. **Légendes difficiles à intégrer :**  
-   Avec matplotlib, la grande quantité de données (57 parkings vélos et 24 parkings voitures) rendait les légendes illisibles.
+Le principal défi que j’ai rencontré était de garder mes graphiques interactifs. Au début, je souhaitais utiliser matplotlib, car c’était ce qui m’avait été demandé, mais j'ai rencontré un problème pour ajouter une légende lisible à mes graphiques, notamment en raison du grand nombre de parkings (57 parkings vélos et 24 parkings voitures). Le problème était que les légendes étaient trop grandes et difficiles à intégrer proprement.
+J’ai donc décidé de passer à Plotly pour créer des graphiques interactifs. Avec Plotly, j’ai pu créer des graphes interactifs et ajouter des informations supplémentaires en utilisant la fonction de survol. Cela a rendu les graphiques beaucoup plus lisibles, même avec un grand nombre de courbes.
 
-   **Solution :**  
-   J’ai opté pour Plotly, qui permet de créer des graphiques interactifs avec des fonctions de survol pour afficher des informations supplémentaires.
-
-2. **Exportation des graphiques interactifs :**  
-   Jupyter Notebook et Google Colab génèrent des fichiers HTML statiques qui ne permettent pas d’afficher les graphiques interactifs.
-
-   **Solution :**  
-   J’ai exporté les graphiques au format HTML, puis intégré les graphiques et tableaux dans une page web hébergée sur GitHub.
+Cependant, quand j’ai tenté d’exporter mes résultats depuis Jupyter Notebook mais aussi Google Colab, j’ai rencontré un autre problème : ces plateformes génèrent des fichiers HTML statiques qui ne permettent pas d’afficher les graphiques interactifs. C’est pourquoi j’ai utilisé Google Colab pour enregistrer mes graphiques au format HTML, puis j’ai intégré les graphiques et les tableaux dans une page web HTML que j’ai moi même codé puis hébergée sur GitHub.
 
 ---
 
