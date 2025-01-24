@@ -6,7 +6,9 @@
 
 NB: Une explication de l'arborescence des fichiers présents sur ce dépôt est présente tout en bas de cette page.
 
------
+---
+---
+
 # Genèse de mon projet
 
 Dans le cadre de ma formation en **BUT Réseaux et Télécommunications**, j'ai été mandatée par la mairie de Montpellier pour réaliser une étude sur l’utilisation des parkings de la ville, dans le cadre de la **SAE 15**. Cette étude avait pour but de répondre à plusieurs questions concernant les parkings voitures et vélos, en particulier sur leur taux d'occupation et la relation entre l’utilisation des parkings de véhicules et de vélos. Le projet visait également à analyser si ces parkings étaient bien dimensionnés et à observer les corrélations potentielles entre les parkings pour mieux comprendre leur utilisation.
@@ -176,8 +178,6 @@ Voici un aperçu de son contenu :
   - `tableau_velos`
   - `tableau_voitures`
 
----
-
 ### 2. Dossier `SAE15`
 Ce dossier contient les scripts et données pour la collecte, le traitement et l'analyse des parkings.
 
@@ -198,8 +198,6 @@ Ce dossier contient les graphiques et tableaux générés :
 #### 2.4. Sous-dossiers `velos` et `voitures`
 Ces dossiers contiennent les fichiers JSON bruts pour les données de parkings vélos et voitures sur 7 jours (du 26 décembre au 1er janvier).
 
----
-
 ### 3. Scripts principaux
 Voici une liste des scripts clés utilisés dans mon projet :
 
@@ -209,8 +207,6 @@ Voici une liste des scripts clés utilisés dans mon projet :
   Programme pour collecter les données brutes via l'API Open Data de Montpellier.
 - [Traitement des données](SAE15/programmes_traitement_donnees.py)  
   Script pour calculer les taux d'occupation et générer les graphiques.
-
----
 
 ## Accéder aux données
 Les données brutes et résultats sont accessibles via les sous-dossiers dans `SAE15`.
