@@ -1,6 +1,6 @@
 # SAE15_Audrey_Authier-Cassagne
 
-# Genèse de Mon Projet
+# Genèse de Mon Projet (disponible à l'adresse: https://audreyauthier.github.io/SAE15_Audrey_Authier-Cassagne/ )
 
 Dans le cadre de ma formation en **BUT Réseaux et Télécommunications**, j'ai été mandatée par la mairie de Montpellier pour réaliser une étude sur l’utilisation des parkings de la ville, dans le cadre de la **SAE 15**. Cette étude avait pour but de répondre à plusieurs questions concernant les parkings voitures et vélos, en particulier sur leur taux d'occupation et la relation entre l’utilisation des parkings de véhicules et de vélos. Le projet visait également à analyser si ces parkings étaient bien dimensionnés, et à observer les corrélations potentielles entre les parkings pour mieux comprendre leur utilisation.
 
@@ -38,12 +38,125 @@ Afin de pouvoir analyser la proximité géographique des parkings, il m’a fall
 - J’ai récupéré ces coordonnées GPS en quelques secondes pour chaque parking, tant pour les parkings voitures que pour les parkings vélos.
 - Ces coordonnées étaient nécessaires pour mesurer la distance géographique entre les parkings et établir leur relation de proximité.
 
-## 4. Traitement des Données
+# 4. Traitement des Données
 
-Après avoir récupéré les données nécessaires, j’ai procédé à leur traitement pour calculer les **taux d’occupation des parkings**. Cependant, en raison de la différence de nature des parkings (voitures et vélos), les calculs ont été adaptés :
+Après avoir récupéré les données nécessaires, j’ai procédé à leur traitement pour calculer les taux d’occupation des parkings. Cependant, en raison de la différence de nature des parkings (voitures et vélos), les calculs ont été adaptés :
 
-### Taux d'occupation des parkings voitures :
-Le **taux d’occupation des parkings voitures (en %)** est calculé comme suit :
+## Parkings voitures
+Pour les parkings voitures, j’ai calculé le taux d’occupation en fonction du nombre de places libres. Ce taux indique dans quelle mesure un parking est occupé, en utilisant la formule classique du taux d’occupation :
 
-```math
-\text{taux d'occupation voitures} = \left( 1 - \frac{\text{places libres}}{\text{capacité totale}} \right) \times 100
+\[
+\text{Taux d'occupation du parking voitures (\%)} = \left( \frac{\text{Nombre de places occupées}}{\text{Capacité totale}} \right) \times 100
+\]
+
+Or, sur le site, j’ai récupéré le **nombre de places libres de parking**. 
+
+Comme :
+
+\[
+\text{Nombre de places occupées} = \text{Capacité totale} - \text{Nombre de places libres}
+\]
+
+Alors :
+
+\[
+\text{Taux d'occupation du parking voitures (\%)} = \left( \frac{\text{Capacité totale} - \text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
+\]
+
+Ce qui revient à :
+
+\[
+\text{Taux d'occupation du parking voitures (\%)} = \left( 1 - \frac{\text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
+\]
+
+## Parkings vélos
+Pour les parkings vélos, j’ai calculé un **taux d’utilisation**. Plus il y a de vélos disponibles, plus le parking est plein. On peut utiliser une formule similaire à celle des parkings voitures :
+
+\[
+\text{Taux d'occupation (ou d'utilisation) vélos (\%)} = \left( \frac{\text{Nombre de vélos utilisés}}{\text{Capacité totale}} \right) \times 100
+\]
+
+Or, sur le site, j’ai récupéré le **nombre de vélos non utilisés** (disponibles à la location), soit le nombre de places libres. 
+
+Ainsi :
+
+\[
+\text{Nombre de vélos utilisés} = \text{Capacité totale} - \text{Nombre de places libres}
+\]
+
+Alors :
+
+\[
+\text{Taux d'occupation (ou d'utilisation) vélos (\%)} = \left( \frac{\text{Capacité totale} - \text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
+\]
+
+Ce qui revient à :
+
+\[
+\text{Taux d'occupation (ou d'utilisation) vélos (\%)} = \left( 1 - \frac{\text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
+\]
+
+Cela signifie qu’un parking avec peu de vélos disponibles est plus utilisé, et donc plus occupé.
+
+J’ai ensuite organisé les données pour permettre une analyse journalière et statistique. J’ai ainsi généré des graphiques pour visualiser ces taux sur plusieurs jours.
+
+---
+
+# 5. La Proximité des Parkings et la Heatmap des Corrélations
+
+Avant de générer la heatmap des corrélations, il m’a fallu déterminer la proximité géographique des parkings. J'ai estimé qu’une distance de **500 mètres** (environ 5 minutes à pied) serait raisonnable pour analyser la proximité des parkings vélos aux parkings voitures, et vice versa.
+
+Pour cela, j'ai calculé la distance géographique entre les parkings en utilisant leurs coordonnées GPS. J'ai choisi cette distance de 500 mètres en me basant sur une estimation réaliste de la distance qu'une personne pourrait parcourir entre un parking vélo et un parking voiture.
+
+Ensuite, j'ai créé un tableau des parkings proches, c’est-à-dire des parkings vélos situés à moins de 500 mètres d’un parking voiture, et inversement. Cela m’a permis de filtrer les corrélations de la heatmap pour ne garder que les parkings dont la proximité géographique était significative.
+
+Sans ce tableau, la heatmap incluait des corrélations entre des parkings qui étaient géographiquement proches, mais pas nécessairement corrélés en termes d'utilisation. Par exemple, deux parkings peuvent être proches sans que leurs taux d’occupation soient liés. Le tableau des parkings proches a donc permis de mieux interpréter la heatmap en filtrant les corrélations non pertinentes.
+
+---
+
+# 6. Les Graphiques et Défis Techniques
+
+Afin de rendre les résultats accessibles, j’ai créé plusieurs types de graphiques :
+
+- **Graphiques des taux d'occupation et d'utilisation** pour les parkings voitures et vélos.
+- **Graphiques des écarts-types** de l’occupation des parkings sous forme de barres.
+- **Heatmap des corrélations**, où les parkings proches étaient mis en évidence.
+- **Tableaux récapitulatifs**, contenant des informations comme les moyennes des taux d’utilisation et les écarts-types.
+
+### Défis rencontrés
+1. **Légendes difficiles à intégrer :**  
+   Avec matplotlib, la grande quantité de données (57 parkings vélos et 24 parkings voitures) rendait les légendes illisibles.
+
+   **Solution :**  
+   J’ai opté pour Plotly, qui permet de créer des graphiques interactifs avec des fonctions de survol pour afficher des informations supplémentaires.
+
+2. **Exportation des graphiques interactifs :**  
+   Jupyter Notebook et Google Colab génèrent des fichiers HTML statiques qui ne permettent pas d’afficher les graphiques interactifs.
+
+   **Solution :**  
+   J’ai exporté les graphiques au format HTML, puis intégré les graphiques et tableaux dans une page web hébergée sur GitHub.
+
+---
+
+# 7. La Création de la Page Web
+
+Pour centraliser mes résultats, j’ai codé une **page HTML** hébergée sur GitHub. Cette page contient :
+
+- Les graphiques interactifs (parkings vélos et voitures).
+- Les graphiques en barres pour les écarts-types.
+- La heatmap des corrélations.
+- Des tableaux récapitulatifs et des explications des résultats.
+
+J’ai pris soin de bien organiser cette page pour que les résultats soient accessibles et compréhensibles.
+
+---
+
+# 8. Conclusion
+
+Ce projet m’a permis de développer des compétences en :
+
+- **Collecte et traitement de données**
+- **Analyse statistique et visualisation graphique**
+
+J’ai étudié l’utilisation des parkings de Montpellier, analysé la relation entre l'occupation des parkings voitures et vélos, et créé des graphes et tableaux pour présenter mes résultats. J’ai également appris à résoudre des problèmes techniques liés aux graphiques interactifs et à intégrer mes analyses dans une page HTML accessible au maire de Montpellier et aux parties prenantes.
+
