@@ -87,7 +87,7 @@ $$
 Ainsi :
 
 $$
-\text{Taux d'occupation (ou d'utilisation) vélos (\%)} = \left \frac{\text{Capacité totale} - \text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
+\text{Taux d'occupation (ou d'utilisation) vélos (\%)} = \left( \frac{\text{Capacité totale} - \text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
 $$
 
 Ce qui revient à :
