@@ -1,6 +1,6 @@
 # SAE15_Audrey_Authier-Cassagne
 
-**Mon projet est disponible ici**: [Site Web du projet](https://audreyauthier.github.io/SAE15_Audrey_Authier-Cassagne/)
+**Mon projet est disponible ici**:  [Site Web du projet](https://audreyauthier.github.io/SAE15_Audrey_Authier-Cassagne/)
 
 NB: Une explication de l'arborescence des fichiers présents sur ce dépôt est présente tout en bas de cette page.
 
