@@ -1,6 +1,8 @@
 # SAE15_Audrey_Authier-Cassagne
 
-# Genèse de Mon Projet (disponible à l'adresse: https://audreyauthier.github.io/SAE15_Audrey_Authier-Cassagne/ )
+#Mon projet est disponible ici: https://audreyauthier.github.io/SAE15_Audrey_Authier-Cassagne/
+
+# Genèse de mon projet
 
 Dans le cadre de ma formation en **BUT Réseaux et Télécommunications**, j'ai été mandatée par la mairie de Montpellier pour réaliser une étude sur l’utilisation des parkings de la ville, dans le cadre de la **SAE 15**. Cette étude avait pour but de répondre à plusieurs questions concernant les parkings voitures et vélos, en particulier sur leur taux d'occupation et la relation entre l’utilisation des parkings de véhicules et de vélos. Le projet visait également à analyser si ces parkings étaient bien dimensionnés, et à observer les corrélations potentielles entre les parkings pour mieux comprendre leur utilisation.
 
