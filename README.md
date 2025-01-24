@@ -49,9 +49,7 @@ Ces données ont été collectées sur une période de **7 jours** (du 26 décem
 ## 3. Collecte des Coordonnées des Parkings (Proximité)
 
 Afin de pouvoir analyser la proximité géographique des parkings, il m’a fallu récupérer les coordonnées géographiques (**latitude** et **longitude**) des parkings voitures et vélos.
-
-- J’ai récupéré ces coordonnées GPS en quelques secondes pour chaque parking, tant pour les parkings voitures que pour les parkings vélos.
-- Ces coordonnées étaient nécessaires pour mesurer la distance géographique entre les parkings et établir leur relation de proximité.
+Pour cela, j'ai effectué une récupération supplémentaire de coordonnées GPS à un autre moment spécifique. Cela a été effectué en quelques secondes pour récupérer la latitude et la longitude de chaque parking, tant pour les parkings voitures que pour les parkings vélos. Ces coordonnées étaient nécessaires pour mesurer la distance géographique entre les parkings et établir la relation de proximité entre eux.
 
 ---
 
