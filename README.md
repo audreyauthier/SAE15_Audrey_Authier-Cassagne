@@ -114,6 +114,9 @@ Ensuite, j'ai créé un tableau des parkings proches, c’est-à-dire des parkin
 
 Sans ce tableau, la heatmap incluait des corrélations entre des parkings qui étaient géographiquement proches, mais pas nécessairement corrélés en termes d'utilisation. Par exemple, deux parkings peuvent être proches sans que leurs taux d’occupation soient liés. Le tableau des parkings proches a donc permis de mieux interpréter la heatmap en filtrant les corrélations non pertinentes.
 
+Lien vers mon fichier.py pour l'étude de proximité des parkings: [Comparer la proximité des parkings](SAE15/Comparer_la_proximité_des_parkings.py)
+
+
 ---
 
 # 6. Les Graphiques et Défis Techniques
