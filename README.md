@@ -122,7 +122,7 @@ Sans ce tableau, la heatmap incluait des corrélations entre des parkings qui é
 
 Afin de rendre les résultats accessibles, j’ai créé plusieurs types de graphiques :
 
-- **Graphiques des taux d'occupation et d'utilisation** pour les parkings voitures et vélos.
+- **Graphiques des taux d'occupation** pour les parkings voitures et **taux d'utilisation** pour les parkings vélos.
 - **Graphiques des écarts-types** de l’occupation et de l'utilisation des parkings sous forme de barres.
 - **Heatmap des corrélations**, où les parkings proches étaient mis en évidence.
 - **Tableaux récapitulatifs**, contenant des informations comme les moyennes des taux d’utilisation et les écarts-types.
