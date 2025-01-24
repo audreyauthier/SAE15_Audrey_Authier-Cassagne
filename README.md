@@ -3,8 +3,10 @@
 **Mon projet est disponible ici**:  
 [Mobilité dans Montpellier et son agglomération: une étude de l'utilisation des parkings et du relais voiture/vélo](https://audreyauthier.github.io/SAE15_Audrey_Authier-Cassagne/)
 
+
 NB: Une explication de l'arborescence des fichiers présents sur ce dépôt est présente tout en bas de cette page.
 
+-----
 # Genèse de mon projet
 
 Dans le cadre de ma formation en **BUT Réseaux et Télécommunications**, j'ai été mandatée par la mairie de Montpellier pour réaliser une étude sur l’utilisation des parkings de la ville, dans le cadre de la **SAE 15**. Cette étude avait pour but de répondre à plusieurs questions concernant les parkings voitures et vélos, en particulier sur leur taux d'occupation et la relation entre l’utilisation des parkings de véhicules et de vélos. Le projet visait également à analyser si ces parkings étaient bien dimensionnés et à observer les corrélations potentielles entre les parkings pour mieux comprendre leur utilisation.
