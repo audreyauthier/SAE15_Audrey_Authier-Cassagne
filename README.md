@@ -1,6 +1,6 @@
 # SAE15_Audrey_Authier-Cassagne
 
-**Mon projet est disponible ici**:  [Site Web du projet](https://audreyauthier.github.io/SAE15_Audrey_Authier-Cassagne/)
+**Mon projet est disponible ici**:  [Mobilité dans Montpellier et son agglomération: une étude de l'utilisation des parkings et du relais voiture/vélo](https://audreyauthier.github.io/SAE15_Audrey_Authier-Cassagne/)
 
 NB: Une explication de l'arborescence des fichiers présents sur ce dépôt est présente tout en bas de cette page.
 
@@ -125,7 +125,7 @@ Afin de rendre les résultats accessibles, j’ai créé plusieurs types de grap
 - **Graphiques des taux d'occupation** pour les parkings voitures et **taux d'utilisation** pour les parkings vélos.
 - **Graphiques des écarts-types de l’occupation ou de l'utilisation** des parkings sous forme de barres.
 - **Heatmap des corrélations**, où les parkings proches étaient mis en évidence.
-- **Tableaux récapitulatifs**, contenant des informations comme les moyennes des taux d’utilisation et les écarts-types.
+- **Tableaux récapitulatifs**, contenant des informations comme les moyennes des taux d'occupation ou d’utilisation et les écarts-types.
 
 ### Défis rencontrés
 Le principal défi que j’ai rencontré était de garder mes graphiques interactifs. Au début, je souhaitais utiliser matplotlib, car c’était ce qui m’avait été demandé, mais j'ai rencontré un problème pour ajouter une légende lisible à mes graphiques, notamment en raison du grand nombre de parkings (57 parkings vélos et 24 parkings voitures). Le problème était que les légendes étaient trop grandes et difficiles à intégrer proprement.
