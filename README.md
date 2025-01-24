@@ -94,7 +94,7 @@ Ce qui revient à :
 
 $$
 \text{Taux d'occupation (ou d'utilisation) vélos (\%)} = \left( 1 - \frac{\text{Nombre de places libres}}{\text{Capacité totale}} \right) \times 100
-$$
+$$ 
 
 Cela signifie qu’un parking avec peu de vélos disponibles est plus utilisé, et donc plus occupé.
 
