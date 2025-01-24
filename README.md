@@ -11,6 +11,8 @@ NB: Une explication de l'arborescence des fichiers présents sur ce dépôt est 
 
 Dans le cadre de ma formation en **BUT Réseaux et Télécommunications**, j'ai été mandatée par la mairie de Montpellier pour réaliser une étude sur l’utilisation des parkings de la ville, dans le cadre de la **SAE 15**. Cette étude avait pour but de répondre à plusieurs questions concernant les parkings voitures et vélos, en particulier sur leur taux d'occupation et la relation entre l’utilisation des parkings de véhicules et de vélos. Le projet visait également à analyser si ces parkings étaient bien dimensionnés et à observer les corrélations potentielles entre les parkings pour mieux comprendre leur utilisation.
 
+---
+
 ## 1. Mise en Situation et Objectifs du Projet
 
 Le maire de Montpellier m’a mandaté pour étudier l’occupation des parkings de la ville, en particulier :
@@ -19,6 +21,8 @@ Le maire de Montpellier m’a mandaté pour étudier l’occupation des parkings
 - L’analyse de la relation entre l’utilisation des parkings de voitures et de vélos, pour voir s’il existait des liens entre l’utilisation des parkings voitures et la location des vélos dans les parkings vélos situés à proximité.
 
 L’objectif principal était de déterminer si les parkings étaient bien dimensionnés et de vérifier si des corrélations existent entre l'usage des parkings voitures et vélos, en tenant compte de leur proximité géographique.
+
+---
 
 ## 2. Collecte des Données
 
@@ -38,12 +42,16 @@ Pour ce projet, j’ai récupéré les données publiques concernant les parking
 
 Ces données ont été collectées sur une période de **7 jours** (du 26 décembre 2024 au 1er janvier 2025), à intervalle de 5 minutes. Mon analyse s'est principalement concentrée sur les heures entre **6h et 22h** pour évaluer la fréquentation des parkings.
 
+---
+
 ## 3. Collecte des Coordonnées des Parkings (Proximité)
 
 Afin de pouvoir analyser la proximité géographique des parkings, il m’a fallu récupérer les coordonnées géographiques (**latitude** et **longitude**) des parkings voitures et vélos.
 
 - J’ai récupéré ces coordonnées GPS en quelques secondes pour chaque parking, tant pour les parkings voitures que pour les parkings vélos.
 - Ces coordonnées étaient nécessaires pour mesurer la distance géographique entre les parkings et établir leur relation de proximité.
+
+---
 
 # 4. Traitement des Données
 
@@ -74,8 +82,6 @@ Ce qui revient à :
 $$
 \text{Taux d'occupation du parking voitures \%} = 1 - \frac{\text{Nombre de places libres d'utilisation}}{\text{Capacité totale}} \times 100
 $$
-
----
 
 ## Parkings vélos
 
@@ -148,7 +154,7 @@ J'ai intégré mes graphismes interactifs exportés en HTML (pour les parkings v
 
 # 8. Conclusion
 
-En conclusion, ce projet m’a permis de développer des compétences en collecte et traitement de données, analyse statistique, et visualisation graphique. J’ai étudié l’utilisation des parkings de la ville de Montpellier, analysé la relation entre l'occupation des parkings voitures et vélos, et créé des graphes et des tableaux récapitulatifs pour présenter mes résultats.
+En conclusion, ce projet m’a permis de développer des compétences en collecte et traitement de données, analyse statistique, et visualisation graphique. J’ai étudié l’utilisation des parkings de la ville de Montpellier, analysé la relation entre l'occupation des parkings voitures et l'utilisation des vélos depuis les parkings vélos, et créé des graphes et des tableaux récapitulatifs pour présenter mes résultats.
 Ce travail m’a également permis d’apprendre à résoudre des problèmes techniques liés à la création de graphiques interactifs et à l’intégration de résultats dans une page HTML. Le projet a été finalisé sur une page web hébergée sur GitHub,pour conserver la synthèse de mon analyse de ces données pour la rendre accessible au maire de Montpellier et aux parties prenantes.
 
 ---
