@@ -15,7 +15,7 @@ Dans le cadre de ma formation en **BUT Réseaux et Télécommunications**, j'ai 
 
 ---
 
-## 1. Mise en Situation et Objectifs du Projet
+## 1. Mise en situation et objectifs du projet
 
 Le maire de Montpellier m’a mandaté pour étudier l’occupation des parkings de la ville, en particulier :
 
@@ -26,7 +26,7 @@ L’objectif principal était de déterminer si les parkings étaient bien dimen
 
 ---
 
-## 2. Collecte des Données
+## 2. Collecte des données
 
 Pour ce projet, j’ai récupéré les données publiques concernant les parkings de la ville, via le portail **API du site Open Data de Montpellier**. Voici les données spécifiques que j’ai récupérées pour chaque type de parking :
 
@@ -46,14 +46,14 @@ Ces données ont été collectées sur une période de **7 jours** (du 26 décem
 
 ---
 
-## 3. Collecte des Coordonnées des Parkings (Proximité)
+## 3. Collecte des coordonnées des parkings (proximité)
 
 Afin de pouvoir analyser la proximité géographique des parkings, il m’a fallu récupérer les coordonnées géographiques (**latitude** et **longitude**) des parkings voitures et vélos.
 Pour cela, j'ai effectué une récupération supplémentaire de coordonnées GPS à un autre moment spécifique. Cela a été effectué en quelques secondes pour récupérer la latitude et la longitude de chaque parking, tant pour les parkings voitures que pour les parkings vélos. Ces coordonnées étaient nécessaires pour mesurer la distance géographique entre les parkings et établir la relation de proximité entre eux.
 
 ---
 
-# 4. Traitement des Données
+# 4. Traitement des données
 
 Après avoir récupéré les données nécessaires, j’ai procédé à leur traitement pour calculer les taux d’occupation des parkings. Cependant, en raison de la différence de nature des parkings (voitures et vélos), les calculs ont été adaptés :
 
@@ -115,7 +115,7 @@ J’ai ensuite organisé les données pour permettre une analyse journalière et
 
 ---
 
-# 5. La Proximité des Parkings et la Heatmap des Corrélations
+# 5. La proximité des parkings et la heatmap des corrélations
 
 Avant de générer la heatmap des corrélations, il m’a fallu déterminer la proximité géographique des parkings. J'ai estimé qu’une distance de **500 mètres** (environ 5 minutes à pied) serait raisonnable pour analyser la proximité des parkings vélos aux parkings voitures, et vice versa.
 
@@ -127,7 +127,7 @@ Sans ce tableau, la heatmap incluait des corrélations entre des parkings qui é
 
 ---
 
-# 6. Les Graphiques et Défis Techniques
+# 6. Les graphiques et défis techniques
 
 Afin de rendre les résultats accessibles, j’ai créé plusieurs types de graphiques :
 
@@ -144,7 +144,7 @@ Cependant, quand j’ai tenté d’exporter mes résultats depuis Jupyter Notebo
 
 ---
 
-# 7. La Création de la Page Web
+# 7. La création de la page web
 
 Pour héberger mes résultats sur GitHub, j’ai décidé de coder ma propre page HTML. Cela m’a permis de centraliser tous mes résultats (graphiques interactifs, tableaux, heatmap) et de les rendre accessibles sous forme de page web. J’ai pris soin de bien organiser cette page pour que les différents graphiques et tableaux soient faciles à consulter, tout en expliquant clairement les résultats obtenus.
 
